@@ -1,0 +1,137 @@
+INFO  22:41:29,465 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\avg_test302.mj
+INFO  22:41:29,511 - #2 program
+INFO  22:41:29,511 - #3 test302
+INFO  22:41:29,511 - #43 {
+INFO  22:41:29,512 - #3 bool
+INFO  22:41:29,513 - #3 verify
+INFO  22:41:29,515 - #41 (
+INFO  22:41:29,515 - #42 )
+INFO  22:41:29,515 - #43 {
+INFO  22:41:29,516 - #12 print
+INFO  22:41:29,516 - #41 (
+INFO  22:41:29,517 - #5 v
+INFO  22:41:29,517 - #42 )
+INFO  22:41:29,518 - #47 ;
+INFO  22:41:29,518 - #13 return
+INFO  22:41:29,518 - #6 false
+INFO  22:41:29,518 - #47 ;
+INFO  22:41:29,518 - #44 }
+INFO  22:41:29,518 - #10 void
+INFO  22:41:29,519 - #3 main
+INFO  22:41:29,519 - #41 (
+INFO  22:41:29,519 - #42 )
+INFO  22:41:29,519 - #43 {
+INFO  22:41:29,520 - #3 verify
+INFO  22:41:29,520 - #41 (
+INFO  22:41:29,520 - #42 )
+INFO  22:41:29,520 - #47 ;
+INFO  22:41:29,521 - #44 }
+INFO  22:41:29,521 - #44 }
+INFO  22:41:29,525 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    MethodDecl(
+      EmptyMethodDecl(
+      ) [EmptyMethodDecl]
+      NoFparMetohdDecl(
+        MethodTypeName(
+          TypeFunc(
+            Type(
+              IdentDecl(
+               bool
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+          ) [TypeFunc]
+         verify
+        ) [MethodTypeName]
+        NoVarList(
+        ) [NoVarList]
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              PrintStat(
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactCh(
+                         v
+                        ) [FactCh]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+                NoNum(
+                ) [NoNum]
+              ) [PrintStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            ReturnStat(
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactB(
+                       false
+                      ) [FactB]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [ReturnStat]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [NoFparMetohdDecl]
+    ) [MethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            FuncCallNoAct(
+              FuncCall(
+                DesignatorDecl(
+                  IdentDecl(
+                   verify
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [DesignatorDecl]
+              ) [FuncCall]
+            ) [FuncCallNoAct]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  22:41:29,525 - ===================================
+INFO  22:41:29,528 - PROGRAM NAME : test302
+INFO  22:41:29,529 - Obradjuje se funkcija verify na liniji 7
+INFO  22:41:29,529 - metoda verifynema  parametara, i 0promenljivih na liniji 7
+INFO  22:41:29,529 - Obradjuje se funkcija main na liniji 12
+INFO  22:41:29,529 - metoda mainnema  parametara, i 0promenljivih na liniji 12
+INFO  22:41:29,529 -  Print count calls = 1
+INFO  22:41:29,529 -  Deklarisanih nizova = 0
+INFO  22:41:29,529 -  Deklarisanih promenljivih = 0
+INFO  22:41:29,529 - ===================================
+INFO  22:41:29,530 - Parsiranje uspesno zavrseno!

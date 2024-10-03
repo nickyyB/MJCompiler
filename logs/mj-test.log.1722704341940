@@ -1,0 +1,52 @@
+INFO  18:56:32,125 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test302.mj
+INFO  18:56:32,194 - #2 program
+INFO  18:56:32,194 - #3 test302
+INFO  18:56:32,194 - #3 int
+INFO  18:56:32,196 - #3 i
+INFO  18:56:32,198 - #47 ;
+INFO  18:56:32,199 - #3 bool
+INFO  18:56:32,199 - #3 ibool
+INFO  18:56:32,199 - #47 ;
+INFO  18:56:32,199 - #43 {
+INFO  18:56:32,199 - #10 void
+INFO  18:56:32,200 - #3 main
+INFO  18:56:32,201 - #41 (
+INFO  18:56:32,201 - #42 )
+INFO  18:56:32,201 - #43 {
+INFO  18:56:32,202 - #3 ibool
+INFO  18:56:32,202 - #22 =
+INFO  18:56:32,203 - #6 false
+INFO  18:56:32,204 - #47 ;
+INFO  18:56:32,204 - #3 i
+INFO  18:56:32,204 - #22 =
+INFO  18:56:32,204 - #4 0
+INFO  18:56:32,207 - #47 ;
+INFO  18:56:32,207 - #3 while
+INFO  18:56:32,207 - #41 (
+INFO  18:56:32,207 - #3 i
+INFO  18:56:32,208 - #27 <
+ERROR 18:56:32,208 - 
+Sintaksna greska na liniji 15
+INFO  18:56:32,208 - #4 5
+INFO  18:56:32,208 - #42 )
+INFO  18:56:32,208 - #43 {
+INFO  18:56:32,209 - #33 if
+INFO  18:56:32,209 - #41 (
+INFO  18:56:32,209 - #3 i
+INFO  18:56:32,209 - #23 ==
+INFO  18:56:32,209 - #4 2
+INFO  18:56:32,209 - #42 )
+INFO  18:56:32,209 - #3 ibool
+INFO  18:56:32,209 - #22 =
+INFO  18:56:32,209 - #6 true
+INFO  18:56:32,209 - #47 ;
+INFO  18:56:32,209 - #3 i
+INFO  18:56:32,209 - #31 ++
+ERROR 18:56:32,209 - Izvrsen oporavak do ; u liniji 1
+INFO  18:56:32,209 - #47 ;
+INFO  18:56:32,210 - #44 }
+INFO  18:56:32,210 - #44 }
+INFO  18:56:32,210 - #44 }
+ERROR 18:56:32,210 - 
+Sintaksna greska na liniji 21
+ERROR 18:56:32,210 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 23

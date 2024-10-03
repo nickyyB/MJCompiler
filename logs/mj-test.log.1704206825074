@@ -1,0 +1,104 @@
+INFO  15:45:27,601 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test302.mj
+INFO  15:45:27,657 - #2 program
+INFO  15:45:27,657 - #3 test302
+INFO  15:45:27,657 - #43 {
+INFO  15:45:27,658 - #3 int
+INFO  15:45:27,659 - #3 sum
+INFO  15:45:27,659 - #41 (
+INFO  15:45:27,660 - #3 int
+INFO  15:45:27,660 - #3 z
+INFO  15:45:27,660 - #48 ,
+INFO  15:45:27,661 - #3 int
+INFO  15:45:27,661 - #3 d
+INFO  15:45:27,661 - #42 )
+INFO  15:45:27,661 - #43 {
+INFO  15:45:27,663 - #13 return
+INFO  15:45:27,664 - #3 z
+INFO  15:45:27,664 - #20 +
+INFO  15:45:27,664 - #3 d
+INFO  15:45:27,665 - #47 ;
+INFO  15:45:27,666 - #44 }
+INFO  15:45:27,666 - #44 }
+INFO  15:45:27,670 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoDeclaration(
+  ) [NoDeclaration]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        TypeFunc(
+          Type(
+           int
+          ) [Type]
+        ) [TypeFunc]
+       sum
+      ) [MethodTypeName]
+      ListFormPars(
+        ElemFormPars(
+          VarFormPar(
+            FormParameter(
+              Type(
+               int
+              ) [Type]
+             z
+            ) [FormParameter]
+          ) [VarFormPar]
+        ) [ElemFormPars]
+        VarFormPar(
+          FormParameter(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormParameter]
+        ) [VarFormPar]
+      ) [ListFormPars]
+      EndFormPar(
+      ) [EndFormPar]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          ReturnStat(
+            ExprTermL(
+              AddopList(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactorDesSingle(
+                        DesignatorDecl(
+                         z
+                        ) [DesignatorDecl]
+                      ) [FactorDesSingle]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+                Plusop(
+                ) [Plusop]
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorDecl(
+                       d
+                      ) [DesignatorDecl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [AddopList]
+            ) [ExprTermL]
+          ) [ReturnStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDecl]
+) [Program]
+INFO  15:45:27,671 - ===================================
+INFO  15:45:27,673 -  Print count calls = 0
+INFO  15:45:27,673 -  Deklarisanih promenljivih ima = 0
+INFO  15:45:27,673 - ===================================

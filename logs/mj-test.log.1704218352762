@@ -1,0 +1,91 @@
+INFO  18:58:46,804 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  18:58:46,867 - #2 program
+INFO  18:58:46,867 - #3 test302
+INFO  18:58:46,868 - #43 {
+INFO  18:58:46,869 - #10 void
+INFO  18:58:46,870 - #3 main
+INFO  18:58:46,871 - #41 (
+INFO  18:58:46,872 - #42 )
+INFO  18:58:46,872 - #43 {
+INFO  18:58:46,873 - #12 print
+INFO  18:58:46,874 - #41 (
+INFO  18:58:46,874 - #3 Unpacking
+INFO  18:58:46,874 - #49 :
+INFO  18:58:46,874 - #49 :
+INFO  18:58:46,874 - #3 niz3
+INFO  18:58:46,876 - #45 [
+INFO  18:58:46,876 - #4 2
+INFO  18:58:46,877 - #46 ]
+INFO  18:58:46,877 - #42 )
+INFO  18:58:46,878 - #47 ;
+INFO  18:58:46,878 - #44 }
+INFO  18:58:46,879 - #44 }
+INFO  18:58:46,884 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclaration(
+  ) [NoDeclaration]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorExprEl(
+                        DesignatorDecl(
+                          WithDoubleColon(
+                           Unpacking
+                            DoubleColon(
+                            ) [DoubleColon]
+                           niz3
+                          ) [WithDoubleColon]
+                        ) [DesignatorDecl]
+                        StartArray(
+                        ) [StartArray]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactNum(
+                                 2
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [DesignatorExprEl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:58:46,884 - ===================================
+INFO  18:58:46,886 -  Print count calls = 1
+INFO  18:58:46,886 -  Deklarisanih promenljivih ima na linija = 0
+INFO  18:58:46,886 - ===================================

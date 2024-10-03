@@ -1,0 +1,158 @@
+INFO  18:36:06,702 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\myTest.mj
+INFO  18:36:06,760 - #2 program
+INFO  18:36:06,761 - #3 test301
+INFO  18:36:06,761 - #43 {
+INFO  18:36:06,762 - #10 void
+INFO  18:36:06,762 - #3 main
+INFO  18:36:06,763 - #41 (
+INFO  18:36:06,763 - #42 )
+INFO  18:36:06,764 - #3 int
+INFO  18:36:06,765 - #3 a
+INFO  18:36:06,766 - #47 ;
+INFO  18:36:06,766 - #43 {
+INFO  18:36:06,766 - #3 a
+INFO  18:36:06,767 - #22 =
+INFO  18:36:06,767 - #4 1
+INFO  18:36:06,768 - #47 ;
+INFO  18:36:06,768 - #3 a
+INFO  18:36:06,769 - #22 =
+INFO  18:36:06,769 - #4 2
+INFO  18:36:06,769 - #47 ;
+INFO  18:36:06,769 - #3 a
+INFO  18:36:06,769 - #22 =
+INFO  18:36:06,769 - #4 3
+INFO  18:36:06,771 - #47 ;
+INFO  18:36:06,771 - #44 }
+INFO  18:36:06,771 - #44 }
+INFO  18:36:06,780 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodSignatureWithoutParams(
+          VoidReturnType(
+          ) [VoidReturnType]
+         main
+        ) [MethodSignatureWithoutParams]
+        ValidMethodParams(
+          NoFormalParams(
+          ) [NoFormalParams]
+        ) [ValidMethodParams]
+      ) [MethodSignature]
+      VarDl(
+        NoVarList(
+        ) [NoVarList]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             a
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              DesignatorStat(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     a
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      FactorSingle(
+                        FactNum(
+                         1
+                        ) [FactNum]
+                      ) [FactorSingle]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [DesignatorStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStat(
+              DesAssign(
+                DesignatorDecl(
+                  IdentDecl(
+                   a
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [DesignatorDecl]
+                Assign(
+                ) [Assign]
+                ExprTermL(
+                  TermSingle(
+                    FactorSingle(
+                      FactNum(
+                       2
+                      ) [FactNum]
+                    ) [FactorSingle]
+                  ) [TermSingle]
+                ) [ExprTermL]
+              ) [DesAssign]
+            ) [DesignatorStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          DesignatorStat(
+            DesAssign(
+              DesignatorDecl(
+                IdentDecl(
+                 a
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [DesignatorDecl]
+              Assign(
+              ) [Assign]
+              ExprTermL(
+                TermSingle(
+                  FactorSingle(
+                    FactNum(
+                     3
+                    ) [FactNum]
+                  ) [FactorSingle]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [DesAssign]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:36:06,780 - ===================================
+INFO  18:36:06,810 - PROGRAM NAME : test301
+WARN  18:36:06,811 - Obj with name: main not found! Line: -1
+INFO  18:36:08,750 - Declared variable a na liniji 7
+INFO  18:36:39,052 -  Print count calls = 0
+INFO  18:36:39,052 -  Deklarisanih nizova = 0
+INFO  18:36:39,052 -  Deklarisanih promenljivih = 1
+INFO  18:36:39,052 - ===================================

@@ -1,0 +1,22 @@
+// Test301
+
+program test301
+	int mat[][];
+{
+	void main()	
+int x;
+	{
+	 mat = new int[2][2];
+	 mat[0][0]=10;
+	 mat[0][1]=11;
+	 mat[1][0]=3;
+	 mat[1][1]=4;
+	 
+	 x=mat[0][0];
+	 
+	 print(x);
+
+	}
+}
+
+

@@ -1,0 +1,252 @@
+INFO  17:04:01,865 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\avg_test301.mj
+INFO  17:04:01,917 - #2 program
+INFO  17:04:01,917 - #3 test301
+INFO  17:04:01,917 - #3 int
+INFO  17:04:01,918 - #3 mat
+INFO  17:04:01,920 - #45 [
+INFO  17:04:01,920 - #46 ]
+INFO  17:04:01,920 - #45 [
+INFO  17:04:01,920 - #46 ]
+INFO  17:04:01,920 - #47 ;
+INFO  17:04:01,921 - #43 {
+INFO  17:04:01,922 - #10 void
+INFO  17:04:01,922 - #3 main
+INFO  17:04:01,923 - #41 (
+INFO  17:04:01,923 - #42 )
+INFO  17:04:01,923 - #43 {
+INFO  17:04:01,924 - #3 mat
+INFO  17:04:01,925 - #22 =
+INFO  17:04:01,925 - #9 new
+INFO  17:04:01,926 - #3 int
+INFO  17:04:01,926 - #45 [
+INFO  17:04:01,926 - #4 2
+INFO  17:04:01,926 - #46 ]
+INFO  17:04:01,928 - #45 [
+INFO  17:04:01,928 - #4 2
+INFO  17:04:01,928 - #46 ]
+INFO  17:04:01,928 - #47 ;
+INFO  17:04:01,928 - #3 mat
+INFO  17:04:01,929 - #45 [
+INFO  17:04:01,929 - #4 0
+INFO  17:04:01,929 - #46 ]
+INFO  17:04:01,929 - #45 [
+INFO  17:04:01,929 - #4 0
+INFO  17:04:01,929 - #46 ]
+INFO  17:04:01,929 - #22 =
+INFO  17:04:01,930 - #4 1
+INFO  17:04:01,930 - #47 ;
+INFO  17:04:01,930 - #12 print
+INFO  17:04:01,930 - #41 (
+INFO  17:04:01,930 - #3 mat
+INFO  17:04:01,930 - #45 [
+INFO  17:04:01,930 - #4 0
+INFO  17:04:01,930 - #46 ]
+INFO  17:04:01,930 - #45 [
+INFO  17:04:01,930 - #4 0
+INFO  17:04:01,930 - #46 ]
+INFO  17:04:01,930 - #42 )
+INFO  17:04:01,931 - #47 ;
+INFO  17:04:01,931 - #44 }
+INFO  17:04:01,931 - #44 }
+INFO  17:04:01,935 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarElemDecl(
+          VarDeclArray(
+           mat
+            Matrix(
+            ) [Matrix]
+          ) [VarDeclArray]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              DesignatorStat(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     mat
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactorNewMatrix(
+                            Type(
+                              IdentDecl(
+                               int
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [Type]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     2
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     2
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [FactorNewMatrix]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [DesignatorStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStat(
+              DesAssign(
+                MatrixDesignator(
+                  ArrayName(
+                   mat
+                  ) [ArrayName]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [MatrixDesignator]
+                Assign(
+                ) [Assign]
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactNum(
+                         1
+                        ) [FactNum]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+              ) [DesAssign]
+            ) [DesignatorStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      MatrixDesignator(
+                        ArrayName(
+                         mat
+                        ) [ArrayName]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactNum(
+                                 0
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactNum(
+                                 0
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [MatrixDesignator]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  17:04:01,936 - ===================================
+INFO  17:04:01,940 - PROGRAM NAME : test301
+INFO  17:04:01,941 - Obradjuje se funkcija main na liniji 8
+INFO  17:04:01,941 - metoda mainnema  parametara, i 0promenljivih na liniji 8
+INFO  17:04:01,941 -  Print count calls = 1
+INFO  17:04:01,941 -  Deklarisanih nizova = 1
+INFO  17:04:01,941 -  Deklarisanih promenljivih = 0
+INFO  17:04:01,941 - ===================================
+INFO  17:04:01,942 - Parsiranje uspesno zavrseno!

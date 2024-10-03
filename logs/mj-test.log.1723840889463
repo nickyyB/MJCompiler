@@ -1,0 +1,266 @@
+INFO  22:41:16,211 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\avg_test302.mj
+INFO  22:41:16,262 - #2 program
+INFO  22:41:16,262 - #3 test302
+INFO  22:41:16,262 - #43 {
+INFO  22:41:16,263 - #3 int
+INFO  22:41:16,264 - #3 sum
+INFO  22:41:16,265 - #41 (
+INFO  22:41:16,266 - #3 int
+INFO  22:41:16,266 - #3 z
+INFO  22:41:16,266 - #48 ,
+INFO  22:41:16,267 - #3 int
+INFO  22:41:16,267 - #3 d
+INFO  22:41:16,267 - #42 )
+INFO  22:41:16,267 - #43 {
+INFO  22:41:16,268 - #13 return
+INFO  22:41:16,268 - #3 z
+INFO  22:41:16,268 - #20 +
+INFO  22:41:16,268 - #3 d
+INFO  22:41:16,269 - #47 ;
+INFO  22:41:16,270 - #44 }
+INFO  22:41:16,270 - #3 bool
+INFO  22:41:16,270 - #3 verify
+INFO  22:41:16,272 - #41 (
+INFO  22:41:16,272 - #42 )
+INFO  22:41:16,272 - #43 {
+INFO  22:41:16,272 - #12 print
+INFO  22:41:16,272 - #41 (
+INFO  22:41:16,272 - #5 v
+INFO  22:41:16,272 - #42 )
+INFO  22:41:16,273 - #47 ;
+INFO  22:41:16,273 - #13 return
+INFO  22:41:16,273 - #6 false
+INFO  22:41:16,273 - #47 ;
+INFO  22:41:16,274 - #44 }
+INFO  22:41:16,274 - #10 void
+INFO  22:41:16,274 - #3 main
+INFO  22:41:16,274 - #41 (
+INFO  22:41:16,274 - #42 )
+INFO  22:41:16,274 - #3 int
+INFO  22:41:16,274 - #3 x
+INFO  22:41:16,274 - #47 ;
+INFO  22:41:16,275 - #43 {
+INFO  22:41:16,275 - #3 verify
+INFO  22:41:16,275 - #41 (
+INFO  22:41:16,276 - #42 )
+INFO  22:41:16,276 - #47 ;
+INFO  22:41:16,276 - #44 }
+INFO  22:41:16,276 - #44 }
+INFO  22:41:16,280 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    MethodDecl(
+      MethodDecl(
+        EmptyMethodDecl(
+        ) [EmptyMethodDecl]
+        MethodDeclaration(
+          MethodTypeName(
+            TypeFunc(
+              Type(
+                IdentDecl(
+                 int
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [Type]
+            ) [TypeFunc]
+           sum
+          ) [MethodTypeName]
+          ListFormPars(
+            ElemFormPars(
+              VarFormPar(
+                FormParameter(
+                  Type(
+                    IdentDecl(
+                     int
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [Type]
+                 z
+                ) [FormParameter]
+              ) [VarFormPar]
+            ) [ElemFormPars]
+            VarFormPar(
+              FormParameter(
+                Type(
+                  IdentDecl(
+                   int
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [Type]
+               d
+              ) [FormParameter]
+            ) [VarFormPar]
+          ) [ListFormPars]
+          EndFormPar(
+          ) [EndFormPar]
+          NoVarList(
+          ) [NoVarList]
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              ReturnStat(
+                ExprTermL(
+                  AddopList(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactorDesSingle(
+                            DesignatorDecl(
+                              IdentDecl(
+                               z
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [DesignatorDecl]
+                          ) [FactorDesSingle]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                    Add(
+                    ) [Add]
+                    TermFactL(
+                      FactorSingle(
+                        FactorDesSingle(
+                          DesignatorDecl(
+                            IdentDecl(
+                             d
+                              WithoutDoubleColon(
+                              ) [WithoutDoubleColon]
+                            ) [IdentDecl]
+                          ) [DesignatorDecl]
+                        ) [FactorDesSingle]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [AddopList]
+                ) [ExprTermL]
+              ) [ReturnStat]
+            ) [MatchedStatement]
+          ) [Statements]
+        ) [MethodDeclaration]
+      ) [MethodDecl]
+      NoFparMetohdDecl(
+        MethodTypeName(
+          TypeFunc(
+            Type(
+              IdentDecl(
+               bool
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+          ) [TypeFunc]
+         verify
+        ) [MethodTypeName]
+        NoVarList(
+        ) [NoVarList]
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              PrintStat(
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactCh(
+                         v
+                        ) [FactCh]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+                NoNum(
+                ) [NoNum]
+              ) [PrintStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            ReturnStat(
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactB(
+                       false
+                      ) [FactB]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [ReturnStat]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [NoFparMetohdDecl]
+    ) [MethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      VarDl(
+        NoVarList(
+        ) [NoVarList]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            FuncCallNoAct(
+              FuncCall(
+                DesignatorDecl(
+                  IdentDecl(
+                   verify
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [DesignatorDecl]
+              ) [FuncCall]
+            ) [FuncCallNoAct]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  22:41:16,281 - ===================================
+INFO  22:41:16,285 - PROGRAM NAME : test302
+INFO  22:41:16,285 - Obradjuje se funkcija sum na liniji 7
+INFO  22:41:16,285 - u termlist smo + na liniji 9
+INFO  22:41:16,285 - metoda sumima 2 parametara, i 2promenljivih na liniji 7
+INFO  22:41:16,286 - Obradjuje se funkcija verify na liniji 12
+INFO  22:41:16,286 - metoda verifynema  parametara, i 0promenljivih na liniji 12
+INFO  22:41:16,286 - Obradjuje se funkcija main na liniji 17
+INFO  22:41:16,286 - Declared variable x na liniji 18
+INFO  22:41:16,286 - metoda mainnema  parametara, i 1promenljivih na liniji 17
+INFO  22:41:16,286 -  Print count calls = 1
+INFO  22:41:16,286 -  Deklarisanih nizova = 0
+INFO  22:41:16,286 -  Deklarisanih promenljivih = 1
+INFO  22:41:16,286 - ===================================
+INFO  22:41:16,287 - Parsiranje uspesno zavrseno!

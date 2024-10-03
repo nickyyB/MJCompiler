@@ -1,0 +1,52 @@
+INFO  16:21:54,084 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  16:21:54,145 - #2 program
+INFO  16:21:54,145 - #3 test302
+INFO  16:21:54,145 - #43 {
+INFO  16:21:54,147 - #10 void
+INFO  16:21:54,147 - #3 main
+INFO  16:21:54,148 - #41 (
+INFO  16:21:54,149 - #42 )
+INFO  16:21:54,149 - #43 {
+INFO  16:21:54,150 - #3 int
+INFO  16:21:54,151 - #3 niz2
+ERROR 16:21:54,151 - 
+Sintaksna greska na liniji 12
+INFO  16:21:54,151 - #47 ;
+INFO  16:21:54,151 - #44 }
+INFO  16:21:54,151 - #44 }
+ERROR 16:21:54,152 - Izvrsen oporavak do ; u liniji 1
+INFO  16:21:54,157 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          AssignError(
+            null
+          ) [AssignError]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:21:54,159 - ===================================
+INFO  16:21:54,161 -  Print count calls = 0
+INFO  16:21:54,161 -  Deklarisanih promenljivih ima na linija = 0
+INFO  16:21:54,161 - ===================================

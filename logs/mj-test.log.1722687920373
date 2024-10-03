@@ -1,0 +1,74 @@
+INFO  14:23:59,100 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  14:23:59,153 - #2 program
+INFO  14:23:59,153 - #3 MJProgram
+INFO  14:23:59,153 - #3 int
+INFO  14:23:59,154 - #3 x
+INFO  14:23:59,156 - #48 ,
+INFO  14:23:59,156 - #3 y
+INFO  14:23:59,156 - #47 ;
+INFO  14:23:59,156 - #43 {
+INFO  14:23:59,157 - #10 void
+INFO  14:23:59,157 - #3 main
+INFO  14:23:59,158 - #41 (
+INFO  14:23:59,158 - #42 )
+INFO  14:23:59,158 - #43 {
+INFO  14:23:59,159 - #44 }
+INFO  14:23:59,159 - #44 }
+INFO  14:23:59,164 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarListDecl(
+          VarElemDecl(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+          VarDeclIdent(
+           y
+          ) [VarDeclIdent]
+        ) [VarListDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      NoStatements(
+      ) [NoStatements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  14:23:59,165 - ===================================
+INFO  14:23:59,168 - PROGRAM NAME : 1
+INFO  14:23:59,168 - Declared variable x na liniji 2
+INFO  14:23:59,168 - Declared variable y na liniji 2
+INFO  14:23:59,168 - Obradjuje se funkcija main na liniji 4
+INFO  14:23:59,169 - metoda mainnema  parametara, i 0promenljivih na liniji 4
+INFO  14:23:59,169 -  Print count calls = 0
+INFO  14:23:59,169 -  Deklarisanih nizova = 0
+INFO  14:23:59,169 -  Deklarisanih promenljivih = 2
+INFO  14:23:59,169 - ===================================
+INFO  14:23:59,170 - Parsiranje uspesno zavrseno!

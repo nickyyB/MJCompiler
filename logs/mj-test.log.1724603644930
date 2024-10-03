@@ -1,0 +1,99 @@
+INFO  18:33:45,905 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\myTest.mj
+INFO  18:33:45,947 - #2 program
+INFO  18:33:45,947 - #3 test301
+INFO  18:33:45,947 - #43 {
+INFO  18:33:45,948 - #10 void
+INFO  18:33:45,949 - #3 main
+INFO  18:33:45,949 - #41 (
+INFO  18:33:45,950 - #42 )
+INFO  18:33:45,950 - #3 int
+INFO  18:33:45,951 - #3 a
+INFO  18:33:45,952 - #47 ;
+INFO  18:33:45,953 - #43 {
+INFO  18:33:45,953 - #3 a
+INFO  18:33:45,953 - #22 =
+INFO  18:33:45,953 - #4 1
+INFO  18:33:45,954 - #47 ;
+INFO  18:33:45,955 - #44 }
+INFO  18:33:45,955 - #44 }
+INFO  18:33:45,960 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodSignatureWithoutParams(
+          VoidReturnType(
+          ) [VoidReturnType]
+         main
+        ) [MethodSignatureWithoutParams]
+        ValidMethodParams(
+          NoFormalParams(
+          ) [NoFormalParams]
+        ) [ValidMethodParams]
+      ) [MethodSignature]
+      VarDl(
+        NoVarList(
+        ) [NoVarList]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             a
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            DesAssign(
+              DesignatorDecl(
+                IdentDecl(
+                 a
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [DesignatorDecl]
+              Assign(
+              ) [Assign]
+              ExprTermL(
+                TermSingle(
+                  FactorSingle(
+                    FactNum(
+                     1
+                    ) [FactNum]
+                  ) [FactorSingle]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [DesAssign]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:33:45,962 - ===================================
+INFO  18:33:45,967 - PROGRAM NAME : test301
+WARN  18:33:45,967 - Obj with name: main not found! Line: -1
+INFO  18:33:45,967 - Declared variable a na liniji 7
+INFO  18:33:45,967 -  Print count calls = 0
+INFO  18:33:45,967 -  Deklarisanih nizova = 0
+INFO  18:33:45,967 -  Deklarisanih promenljivih = 1
+INFO  18:33:45,967 - ===================================
+INFO  18:33:45,968 - Parsiranje uspesno zavrseno!

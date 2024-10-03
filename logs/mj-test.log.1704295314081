@@ -1,0 +1,209 @@
+INFO  16:20:55,016 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  16:20:55,075 - #2 program
+INFO  16:20:55,075 - #3 test302
+INFO  16:20:55,075 - #43 {
+INFO  16:20:55,077 - #10 void
+INFO  16:20:55,078 - #3 main
+INFO  16:20:55,078 - #41 (
+INFO  16:20:55,079 - #42 )
+INFO  16:20:55,079 - #43 {
+INFO  16:20:55,079 - #12 print
+INFO  16:20:55,080 - #41 (
+INFO  16:20:55,080 - #3 sum
+INFO  16:20:55,080 - #41 (
+INFO  16:20:55,081 - #3 Addition
+INFO  16:20:55,081 - #49 :
+INFO  16:20:55,081 - #49 :
+INFO  16:20:55,081 - #3 sum
+INFO  16:20:55,082 - #41 (
+INFO  16:20:55,082 - #3 niz
+INFO  16:20:55,082 - #45 [
+INFO  16:20:55,082 - #4 0
+INFO  16:20:55,083 - #46 ]
+INFO  16:20:55,085 - #48 ,
+INFO  16:20:55,085 - #3 niz
+INFO  16:20:55,085 - #45 [
+INFO  16:20:55,085 - #4 1
+INFO  16:20:55,085 - #46 ]
+INFO  16:20:55,085 - #42 )
+INFO  16:20:55,086 - #48 ,
+INFO  16:20:55,086 - #3 niz
+INFO  16:20:55,086 - #45 [
+INFO  16:20:55,086 - #4 2
+INFO  16:20:55,086 - #46 ]
+INFO  16:20:55,086 - #42 )
+INFO  16:20:55,086 - #42 )
+INFO  16:20:55,087 - #47 ;
+INFO  16:20:55,087 - #44 }
+INFO  16:20:55,087 - #44 }
+INFO  16:20:55,091 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesAct(
+                      FuncCall(
+                        DesignatorDecl(
+                          WithoutDoubleColon(
+                           sum
+                          ) [WithoutDoubleColon]
+                        ) [DesignatorDecl]
+                      ) [FuncCall]
+                      ActParsDecl(
+                        OneActPar(
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactorDesAct(
+                                    FuncCall(
+                                      DesignatorDecl(
+                                        WithDoubleColon(
+                                         Addition
+                                          DoubleColon(
+                                          ) [DoubleColon]
+                                         sum
+                                        ) [WithDoubleColon]
+                                      ) [DesignatorDecl]
+                                    ) [FuncCall]
+                                    ActParsDecl(
+                                      OneActPar(
+                                        ExprTermL(
+                                          TermSingle(
+                                            TermFactL(
+                                              FactorSingle(
+                                                FactorDesSingle(
+                                                  DesignatorExprEl(
+                                                    DesignatorDecl(
+                                                      WithoutDoubleColon(
+                                                       niz
+                                                      ) [WithoutDoubleColon]
+                                                    ) [DesignatorDecl]
+                                                    StartArray(
+                                                    ) [StartArray]
+                                                    ExprTermL(
+                                                      TermSingle(
+                                                        TermFactL(
+                                                          FactorSingle(
+                                                            FactNum(
+                                                             0
+                                                            ) [FactNum]
+                                                          ) [FactorSingle]
+                                                        ) [TermFactL]
+                                                      ) [TermSingle]
+                                                    ) [ExprTermL]
+                                                  ) [DesignatorExprEl]
+                                                ) [FactorDesSingle]
+                                              ) [FactorSingle]
+                                            ) [TermFactL]
+                                          ) [TermSingle]
+                                        ) [ExprTermL]
+                                      ) [OneActPar]
+                                      ExprTermL(
+                                        TermSingle(
+                                          TermFactL(
+                                            FactorSingle(
+                                              FactorDesSingle(
+                                                DesignatorExprEl(
+                                                  DesignatorDecl(
+                                                    WithoutDoubleColon(
+                                                     niz
+                                                    ) [WithoutDoubleColon]
+                                                  ) [DesignatorDecl]
+                                                  StartArray(
+                                                  ) [StartArray]
+                                                  ExprTermL(
+                                                    TermSingle(
+                                                      TermFactL(
+                                                        FactorSingle(
+                                                          FactNum(
+                                                           1
+                                                          ) [FactNum]
+                                                        ) [FactorSingle]
+                                                      ) [TermFactL]
+                                                    ) [TermSingle]
+                                                  ) [ExprTermL]
+                                                ) [DesignatorExprEl]
+                                              ) [FactorDesSingle]
+                                            ) [FactorSingle]
+                                          ) [TermFactL]
+                                        ) [TermSingle]
+                                      ) [ExprTermL]
+                                    ) [ActParsDecl]
+                                  ) [FactorDesAct]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [OneActPar]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactorDesSingle(
+                                  DesignatorExprEl(
+                                    DesignatorDecl(
+                                      WithoutDoubleColon(
+                                       niz
+                                      ) [WithoutDoubleColon]
+                                    ) [DesignatorDecl]
+                                    StartArray(
+                                    ) [StartArray]
+                                    ExprTermL(
+                                      TermSingle(
+                                        TermFactL(
+                                          FactorSingle(
+                                            FactNum(
+                                             2
+                                            ) [FactNum]
+                                          ) [FactorSingle]
+                                        ) [TermFactL]
+                                      ) [TermSingle]
+                                    ) [ExprTermL]
+                                  ) [DesignatorExprEl]
+                                ) [FactorDesSingle]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [ActParsDecl]
+                    ) [FactorDesAct]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:20:55,092 - ===================================
+INFO  16:20:55,094 -  Print count calls = 1
+INFO  16:20:55,094 -  Deklarisanih promenljivih ima na linija = 0
+INFO  16:20:55,094 - ===================================

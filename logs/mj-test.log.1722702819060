@@ -1,0 +1,307 @@
+INFO  18:32:00,646 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test302.mj
+INFO  18:32:00,726 - #2 program
+INFO  18:32:00,726 - #3 test302
+INFO  18:32:00,726 - #43 {
+INFO  18:32:00,728 - #10 void
+INFO  18:32:00,729 - #3 main
+INFO  18:32:00,730 - #41 (
+INFO  18:32:00,731 - #42 )
+INFO  18:32:00,731 - #43 {
+INFO  18:32:00,731 - #35 for
+INFO  18:32:00,732 - #41 (
+INFO  18:32:00,732 - #3 i
+INFO  18:32:00,732 - #22 =
+INFO  18:32:00,733 - #4 0
+INFO  18:32:00,734 - #47 ;
+INFO  18:32:00,734 - #3 i
+INFO  18:32:00,735 - #27 <
+INFO  18:32:00,735 - #4 10
+INFO  18:32:00,736 - #47 ;
+INFO  18:32:00,738 - #42 )
+INFO  18:32:00,739 - #43 {
+INFO  18:32:00,740 - #33 if
+INFO  18:32:00,740 - #41 (
+INFO  18:32:00,741 - #3 i
+INFO  18:32:00,741 - #23 ==
+INFO  18:32:00,741 - #4 3
+INFO  18:32:00,742 - #42 )
+INFO  18:32:00,742 - #43 {
+INFO  18:32:00,742 - #3 i
+INFO  18:32:00,742 - #31 ++
+INFO  18:32:00,743 - #47 ;
+INFO  18:32:00,743 - #38 continue
+INFO  18:32:00,743 - #47 ;
+INFO  18:32:00,743 - #44 }
+INFO  18:32:00,744 - #33 if
+INFO  18:32:00,744 - #41 (
+INFO  18:32:00,744 - #3 i
+INFO  18:32:00,744 - #23 ==
+INFO  18:32:00,744 - #4 4
+INFO  18:32:00,744 - #42 )
+INFO  18:32:00,744 - #37 break
+INFO  18:32:00,744 - #47 ;
+INFO  18:32:00,744 - #44 }
+INFO  18:32:00,745 - #44 }
+INFO  18:32:00,745 - #44 }
+INFO  18:32:00,750 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          MatchedFor(
+            ForStatement(
+              OptDesignStmt(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     i
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [OptDesignStmt]
+              ForInit(
+              ) [ForInit]
+              OptCondition(
+                Condition(
+                  CondTermSingle(
+                    CondTerm(
+                      CondFactSingle(
+                        RelopCondFact(
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactorDesSingle(
+                                    DesignatorDecl(
+                                      IdentDecl(
+                                       i
+                                        WithoutDoubleColon(
+                                        ) [WithoutDoubleColon]
+                                      ) [IdentDecl]
+                                    ) [DesignatorDecl]
+                                  ) [FactorDesSingle]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                          Less(
+                          ) [Less]
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactNum(
+                                   10
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [RelopCondFact]
+                      ) [CondFactSingle]
+                    ) [CondTerm]
+                  ) [CondTermSingle]
+                ) [Condition]
+              ) [OptCondition]
+              ForPreDesignator(
+              ) [ForPreDesignator]
+              NoOptDesignStmt(
+              ) [NoOptDesignStmt]
+              ForPostDesignator(
+              ) [ForPostDesignator]
+            ) [ForStatement]
+            BraceStatList(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  UnmatchedStatement(
+                    IfSingleStat(
+                      IfStart(
+                      ) [IfStart]
+                      IfCond(
+                        Condition(
+                          CondTermSingle(
+                            CondTerm(
+                              CondFactSingle(
+                                RelopCondFact(
+                                  ExprTermL(
+                                    TermSingle(
+                                      TermFactL(
+                                        FactorSingle(
+                                          FactorDesSingle(
+                                            DesignatorDecl(
+                                              IdentDecl(
+                                               i
+                                                WithoutDoubleColon(
+                                                ) [WithoutDoubleColon]
+                                              ) [IdentDecl]
+                                            ) [DesignatorDecl]
+                                          ) [FactorDesSingle]
+                                        ) [FactorSingle]
+                                      ) [TermFactL]
+                                    ) [TermSingle]
+                                  ) [ExprTermL]
+                                  Equal(
+                                  ) [Equal]
+                                  ExprTermL(
+                                    TermSingle(
+                                      TermFactL(
+                                        FactorSingle(
+                                          FactNum(
+                                           3
+                                          ) [FactNum]
+                                        ) [FactorSingle]
+                                      ) [TermFactL]
+                                    ) [TermSingle]
+                                  ) [ExprTermL]
+                                ) [RelopCondFact]
+                              ) [CondFactSingle]
+                            ) [CondTerm]
+                          ) [CondTermSingle]
+                        ) [Condition]
+                      ) [IfCond]
+                      MatchedStatement(
+                        BraceStatList(
+                          Statements(
+                            Statements(
+                              NoStatements(
+                              ) [NoStatements]
+                              MatchedStatement(
+                                DesignatorStat(
+                                  DesInc(
+                                    DesignatorDecl(
+                                      IdentDecl(
+                                       i
+                                        WithoutDoubleColon(
+                                        ) [WithoutDoubleColon]
+                                      ) [IdentDecl]
+                                    ) [DesignatorDecl]
+                                  ) [DesInc]
+                                ) [DesignatorStat]
+                              ) [MatchedStatement]
+                            ) [Statements]
+                            MatchedStatement(
+                              ContinueStat(
+                              ) [ContinueStat]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                        ) [BraceStatList]
+                      ) [MatchedStatement]
+                    ) [IfSingleStat]
+                  ) [UnmatchedStatement]
+                ) [Statements]
+                UnmatchedStatement(
+                  IfSingleStat(
+                    IfStart(
+                    ) [IfStart]
+                    IfCond(
+                      Condition(
+                        CondTermSingle(
+                          CondTerm(
+                            CondFactSingle(
+                              RelopCondFact(
+                                ExprTermL(
+                                  TermSingle(
+                                    TermFactL(
+                                      FactorSingle(
+                                        FactorDesSingle(
+                                          DesignatorDecl(
+                                            IdentDecl(
+                                             i
+                                              WithoutDoubleColon(
+                                              ) [WithoutDoubleColon]
+                                            ) [IdentDecl]
+                                          ) [DesignatorDecl]
+                                        ) [FactorDesSingle]
+                                      ) [FactorSingle]
+                                    ) [TermFactL]
+                                  ) [TermSingle]
+                                ) [ExprTermL]
+                                Equal(
+                                ) [Equal]
+                                ExprTermL(
+                                  TermSingle(
+                                    TermFactL(
+                                      FactorSingle(
+                                        FactNum(
+                                         4
+                                        ) [FactNum]
+                                      ) [FactorSingle]
+                                    ) [TermFactL]
+                                  ) [TermSingle]
+                                ) [ExprTermL]
+                              ) [RelopCondFact]
+                            ) [CondFactSingle]
+                          ) [CondTerm]
+                        ) [CondTermSingle]
+                      ) [Condition]
+                    ) [IfCond]
+                    MatchedStatement(
+                      BreakStat(
+                      ) [BreakStat]
+                    ) [MatchedStatement]
+                  ) [IfSingleStat]
+                ) [UnmatchedStatement]
+              ) [Statements]
+            ) [BraceStatList]
+          ) [MatchedFor]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:32:00,751 - ===================================
+INFO  18:32:00,755 - PROGRAM NAME : test302
+INFO  18:32:00,755 - Obradjuje se funkcija main na liniji 7
+ERROR 18:32:00,755 - Greska na liniji 10 : ime i nije deklarisano! 
+ERROR 18:32:00,755 - Greska na liniji 10 : nekompatibilni tipovi u dodeli vrednosti! dess=expr  na liniji 10
+ERROR 18:32:00,756 - Greska na liniji 10 : ime i nije deklarisano! 
+ERROR 18:32:00,756 - uslovi kod relop nisu kompatibilni, linija 10 na liniji 10
+ERROR 18:32:00,756 - Greska na liniji 11 : ime i nije deklarisano! 
+ERROR 18:32:00,756 - uslovi kod relop nisu kompatibilni, linija 11 na liniji 11
+ERROR 18:32:00,756 - Greska na liniji 13 : ime i nije deklarisano! 
+ERROR 18:32:00,756 - Semanticka greska na liniji 13 designator mora da bude int  na liniji 13
+ERROR 18:32:00,756 - continue mora biti unutar while ili foreach petlje, greska na liniji 0
+ERROR 18:32:00,757 - Greska na liniji 16 : ime i nije deklarisano! 
+ERROR 18:32:00,757 - uslovi kod relop nisu kompatibilni, linija 16 na liniji 16
+ERROR 18:32:00,757 - break mora biti unutar while ili foreach petlje, greska na liniji 0
+INFO  18:32:00,757 - metoda mainnema  parametara, i 0promenljivih na liniji 7
+INFO  18:32:00,757 -  Print count calls = 0
+INFO  18:32:00,757 -  Deklarisanih nizova = 0
+INFO  18:32:00,757 -  Deklarisanih promenljivih = 0
+INFO  18:32:00,757 - ===================================
+ERROR 18:32:00,757 - Parsiranje NIJE uspesno zavrseno!

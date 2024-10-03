@@ -1,0 +1,175 @@
+INFO  16:33:20,224 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  16:33:20,262 - #2 program
+INFO  16:33:20,263 - #3 test302
+INFO  16:33:20,263 - #3 int
+INFO  16:33:20,264 - #3 i
+INFO  16:33:20,265 - #47 ;
+INFO  16:33:20,265 - #3 bool
+INFO  16:33:20,265 - #3 ibool
+INFO  16:33:20,265 - #47 ;
+INFO  16:33:20,265 - #3 int
+INFO  16:33:20,265 - #3 niz2
+INFO  16:33:20,266 - #47 ;
+INFO  16:33:20,266 - #3 int
+INFO  16:33:20,266 - #3 niz
+INFO  16:33:20,266 - #45 [
+INFO  16:33:20,266 - #46 ]
+INFO  16:33:20,266 - #47 ;
+INFO  16:33:20,266 - #3 int
+INFO  16:33:20,266 - #3 a
+INFO  16:33:20,266 - #48 ,
+ERROR 16:33:20,266 - 
+Sintaksna greska na liniji 11
+INFO  16:33:20,266 - #3 curr
+INFO  16:33:20,268 - #47 ;
+INFO  16:33:20,268 - #43 {
+ERROR 16:33:20,268 - Izvrsen oporavak do , u liniji 11
+INFO  16:33:20,268 - #10 void
+INFO  16:33:20,269 - #3 main
+INFO  16:33:20,269 - #41 (
+INFO  16:33:20,270 - #42 )
+INFO  16:33:20,270 - #43 {
+INFO  16:33:20,270 - #3 ibool
+INFO  16:33:20,270 - #22 =
+INFO  16:33:20,271 - #6 false
+INFO  16:33:20,271 - #47 ;
+INFO  16:33:20,271 - #44 }
+INFO  16:33:20,272 - #44 }
+INFO  16:33:20,276 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclVariables(
+              VariableDecl(
+                Type(
+                  WithoutDoubleColon(
+                   int
+                  ) [WithoutDoubleColon]
+                ) [Type]
+                VarElemDecl(
+                  VarDeclIdent(
+                   i
+                  ) [VarDeclIdent]
+                ) [VarElemDecl]
+              ) [VariableDecl]
+            ) [DeclVariables]
+          ) [DeclarationList]
+          DeclVariables(
+            VariableDecl(
+              Type(
+                WithoutDoubleColon(
+                 bool
+                ) [WithoutDoubleColon]
+              ) [Type]
+              VarElemDecl(
+                VarDeclIdent(
+                 ibool
+                ) [VarDeclIdent]
+              ) [VarElemDecl]
+            ) [VariableDecl]
+          ) [DeclVariables]
+        ) [DeclarationList]
+        DeclVariables(
+          VariableDecl(
+            Type(
+              WithoutDoubleColon(
+               int
+              ) [WithoutDoubleColon]
+            ) [Type]
+            VarElemDecl(
+              VarDeclIdent(
+               niz2
+              ) [VarDeclIdent]
+            ) [VarElemDecl]
+          ) [VariableDecl]
+        ) [DeclVariables]
+      ) [DeclarationList]
+      DeclVariables(
+        VariableDecl(
+          Type(
+            WithoutDoubleColon(
+             int
+            ) [WithoutDoubleColon]
+          ) [Type]
+          VarElemDecl(
+            VarDeclArray(
+             niz
+            ) [VarDeclArray]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [DeclVariables]
+    ) [DeclarationList]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          WithoutDoubleColon(
+           int
+          ) [WithoutDoubleColon]
+        ) [Type]
+        ErrorVarComma(
+          VarDeclIdent(
+           curr
+          ) [VarDeclIdent]
+        ) [ErrorVarComma]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            DesAssign(
+              DesignatorDecl(
+                WithoutDoubleColon(
+                 ibool
+                ) [WithoutDoubleColon]
+              ) [DesignatorDecl]
+              Assign(
+              ) [Assign]
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactB(
+                       false
+                      ) [FactB]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [DesAssign]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:33:20,276 - ===================================
+INFO  16:33:20,278 - i
+INFO  16:33:20,278 - ibool
+INFO  16:33:20,278 - niz2
+INFO  16:33:20,278 - curr
+INFO  16:33:20,278 -  Print count calls = 0
+INFO  16:33:20,278 -  Deklarisanih promenljivih ima na linija = 4
+INFO  16:33:20,278 - ===================================

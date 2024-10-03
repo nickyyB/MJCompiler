@@ -1,0 +1,479 @@
+INFO  16:45:31,127 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test301.mj
+INFO  16:45:31,186 - #2 program
+INFO  16:45:31,186 - #3 test301
+INFO  16:45:31,187 - #16 namespace
+INFO  16:45:31,188 - #3 Konstante
+INFO  16:45:31,188 - #43 {
+INFO  16:45:31,188 - #14 const
+INFO  16:45:31,189 - #3 int
+INFO  16:45:31,189 - #3 nula
+INFO  16:45:31,190 - #22 =
+INFO  16:45:31,190 - #4 0
+INFO  16:45:31,190 - #47 ;
+INFO  16:45:31,191 - #14 const
+INFO  16:45:31,191 - #3 int
+INFO  16:45:31,191 - #3 jedan
+INFO  16:45:31,191 - #22 =
+INFO  16:45:31,191 - #4 1
+INFO  16:45:31,191 - #47 ;
+INFO  16:45:31,191 - #14 const
+INFO  16:45:31,191 - #3 int
+INFO  16:45:31,191 - #3 pet
+INFO  16:45:31,192 - #22 =
+INFO  16:45:31,192 - #4 5
+INFO  16:45:31,192 - #47 ;
+INFO  16:45:31,192 - #43 {
+INFO  16:45:31,192 - #44 }
+INFO  16:45:31,192 - #44 }
+INFO  16:45:31,193 - #3 int
+INFO  16:45:31,193 - #3 a
+INFO  16:45:31,193 - #47 ;
+INFO  16:45:31,193 - #43 {
+INFO  16:45:31,194 - #10 void
+INFO  16:45:31,194 - #3 main
+INFO  16:45:31,194 - #41 (
+INFO  16:45:31,195 - #42 )
+INFO  16:45:31,195 - #3 int
+INFO  16:45:31,195 - #3 bodovi
+INFO  16:45:31,195 - #47 ;
+INFO  16:45:31,195 - #3 bool
+INFO  16:45:31,196 - #3 bt
+INFO  16:45:31,196 - #47 ;
+INFO  16:45:31,196 - #43 {
+INFO  16:45:31,196 - #3 bodovi
+INFO  16:45:31,196 - #22 =
+INFO  16:45:31,196 - #4 0
+INFO  16:45:31,197 - #47 ;
+INFO  16:45:31,198 - #3 bodovi
+INFO  16:45:31,198 - #31 ++
+INFO  16:45:31,198 - #47 ;
+INFO  16:45:31,198 - #3 bodovi
+INFO  16:45:31,198 - #22 =
+INFO  16:45:31,198 - #3 bodovi
+INFO  16:45:31,198 - #20 +
+INFO  16:45:31,198 - #3 Konstante
+INFO  16:45:31,199 - #49 :
+INFO  16:45:31,199 - #49 :
+INFO  16:45:31,199 - #3 jedan
+INFO  16:45:31,200 - #47 ;
+INFO  16:45:31,200 - #3 bodovi
+INFO  16:45:31,200 - #32 --
+INFO  16:45:31,200 - #47 ;
+INFO  16:45:31,200 - #12 print
+INFO  16:45:31,200 - #41 (
+INFO  16:45:31,200 - #3 bodovi
+INFO  16:45:31,200 - #42 )
+INFO  16:45:31,201 - #47 ;
+INFO  16:45:31,201 - #12 print
+INFO  16:45:31,201 - #41 (
+INFO  16:45:31,201 - #3 bodovi
+INFO  16:45:31,201 - #42 )
+INFO  16:45:31,201 - #47 ;
+INFO  16:45:31,201 - #3 a
+INFO  16:45:31,201 - #22 =
+INFO  16:45:31,201 - #4 1
+INFO  16:45:31,201 - #47 ;
+INFO  16:45:31,201 - #11 read
+INFO  16:45:31,201 - #41 (
+INFO  16:45:31,202 - #3 bodovi
+INFO  16:45:31,202 - #42 )
+INFO  16:45:31,202 - #47 ;
+INFO  16:45:31,202 - #12 print
+INFO  16:45:31,202 - #41 (
+INFO  16:45:31,202 - #3 bodovi
+INFO  16:45:31,202 - #42 )
+INFO  16:45:31,202 - #47 ;
+INFO  16:45:31,202 - #44 }
+INFO  16:45:31,202 - #44 }
+INFO  16:45:31,207 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamespaceDeclLista(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclConstants(
+              DeclConst(
+                Type(
+                  IdentDecl(
+                   int
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [Type]
+                ConstDeclEl(
+                  ConstDec(
+                   nula
+                    ConstValueN(
+                     0
+                    ) [ConstValueN]
+                  ) [ConstDec]
+                ) [ConstDeclEl]
+              ) [DeclConst]
+            ) [DeclConstants]
+          ) [DeclarationList]
+          DeclConstants(
+            DeclConst(
+              Type(
+                IdentDecl(
+                 int
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [Type]
+              ConstDeclEl(
+                ConstDec(
+                 jedan
+                  ConstValueN(
+                   1
+                  ) [ConstValueN]
+                ) [ConstDec]
+              ) [ConstDeclEl]
+            ) [DeclConst]
+          ) [DeclConstants]
+        ) [DeclarationList]
+        DeclConstants(
+          DeclConst(
+            Type(
+              IdentDecl(
+               int
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+            ConstDeclEl(
+              ConstDec(
+               pet
+                ConstValueN(
+                 5
+                ) [ConstValueN]
+              ) [ConstDec]
+            ) [ConstDeclEl]
+          ) [DeclConst]
+        ) [DeclConstants]
+      ) [DeclarationList]
+      EmptyMethodDecl(
+      ) [EmptyMethodDecl]
+    ) [NamespaceDecl]
+  ) [NamespaceDeclLista]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarElemDecl(
+          VarDeclIdent(
+           a
+          ) [VarDeclIdent]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      VarDl(
+        VarDl(
+          NoVarList(
+          ) [NoVarList]
+          VariableDecl(
+            Type(
+              IdentDecl(
+               int
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+            VarElemDecl(
+              VarDeclIdent(
+               bodovi
+              ) [VarDeclIdent]
+            ) [VarElemDecl]
+          ) [VariableDecl]
+        ) [VarDl]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             bool
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             bt
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        NoStatements(
+                        ) [NoStatements]
+                        MatchedStatement(
+                          DesignatorStat(
+                            DesAssign(
+                              DesignatorDecl(
+                                IdentDecl(
+                                 bodovi
+                                  WithoutDoubleColon(
+                                  ) [WithoutDoubleColon]
+                                ) [IdentDecl]
+                              ) [DesignatorDecl]
+                              Assign(
+                              ) [Assign]
+                              ExprTermL(
+                                TermSingle(
+                                  TermFactL(
+                                    FactorSingle(
+                                      FactNum(
+                                       0
+                                      ) [FactNum]
+                                    ) [FactorSingle]
+                                  ) [TermFactL]
+                                ) [TermSingle]
+                              ) [ExprTermL]
+                            ) [DesAssign]
+                          ) [DesignatorStat]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        DesignatorStat(
+                          DesInc(
+                            DesignatorDecl(
+                              IdentDecl(
+                               bodovi
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [DesignatorDecl]
+                          ) [DesInc]
+                        ) [DesignatorStat]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      DesignatorStat(
+                        DesAssign(
+                          DesignatorDecl(
+                            IdentDecl(
+                             bodovi
+                              WithoutDoubleColon(
+                              ) [WithoutDoubleColon]
+                            ) [IdentDecl]
+                          ) [DesignatorDecl]
+                          Assign(
+                          ) [Assign]
+                          ExprTermL(
+                            AddopList(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactorDesSingle(
+                                      DesignatorDecl(
+                                        IdentDecl(
+                                         bodovi
+                                          WithoutDoubleColon(
+                                          ) [WithoutDoubleColon]
+                                        ) [IdentDecl]
+                                      ) [DesignatorDecl]
+                                    ) [FactorDesSingle]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                              Add(
+                              ) [Add]
+                              TermFactL(
+                                FactorSingle(
+                                  FactorDesSingle(
+                                    DesignatorDecl(
+                                      IdentDecl(
+                                       Konstante
+                                        WithDoubleColon(
+                                          DoubleColon(
+                                          ) [DoubleColon]
+                                         jedan
+                                        ) [WithDoubleColon]
+                                      ) [IdentDecl]
+                                    ) [DesignatorDecl]
+                                  ) [FactorDesSingle]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [AddopList]
+                          ) [ExprTermL]
+                        ) [DesAssign]
+                      ) [DesignatorStat]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    DesignatorStat(
+                      DesDec(
+                        DesignatorDecl(
+                          IdentDecl(
+                           bodovi
+                            WithoutDoubleColon(
+                            ) [WithoutDoubleColon]
+                          ) [IdentDecl]
+                        ) [DesignatorDecl]
+                      ) [DesDec]
+                    ) [DesignatorStat]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  PrintStat(
+                    ExprTermL(
+                      TermSingle(
+                        TermFactL(
+                          FactorSingle(
+                            FactorDesSingle(
+                              DesignatorDecl(
+                                IdentDecl(
+                                 bodovi
+                                  WithoutDoubleColon(
+                                  ) [WithoutDoubleColon]
+                                ) [IdentDecl]
+                              ) [DesignatorDecl]
+                            ) [FactorDesSingle]
+                          ) [FactorSingle]
+                        ) [TermFactL]
+                      ) [TermSingle]
+                    ) [ExprTermL]
+                    NoNum(
+                    ) [NoNum]
+                  ) [PrintStat]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                PrintStat(
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactorDesSingle(
+                            DesignatorDecl(
+                              IdentDecl(
+                               bodovi
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [DesignatorDecl]
+                          ) [FactorDesSingle]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                  NoNum(
+                  ) [NoNum]
+                ) [PrintStat]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              DesignatorStat(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     a
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           1
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [DesignatorStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            ReadStat(
+              DesignatorDecl(
+                IdentDecl(
+                 bodovi
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [DesignatorDecl]
+            ) [ReadStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorDecl(
+                        IdentDecl(
+                         bodovi
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [DesignatorDecl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:45:31,207 - ===================================
+INFO  16:45:31,211 - PROGRAM NAME : 3
+INFO  16:45:31,212 - deklarisana konstanta nula sa vrednosti 0 na liniji 6 na liniji 6
+INFO  16:45:31,212 - deklarisana konstanta jedan sa vrednosti 1 na liniji 7 na liniji 7
+INFO  16:45:31,212 - deklarisana konstanta pet sa vrednosti 5 na liniji 8 na liniji 8
+INFO  16:45:31,212 - Declared variable a na liniji 13
+INFO  16:45:31,212 - Obradjuje se funkcija main na liniji 16
+INFO  16:45:31,212 - Declared variable bodovi na liniji 17
+INFO  16:45:31,212 - Declared variable bt na liniji 18
+INFO  16:45:31,213 - u termlist smo + na liniji 22
+INFO  16:45:31,213 - metoda mainnema  parametara, i 2promenljivih na liniji 16
+INFO  16:45:31,213 -  Print count calls = 3
+INFO  16:45:31,213 -  Deklarisanih nizova = 0
+INFO  16:45:31,213 -  Deklarisanih promenljivih = 3
+INFO  16:45:31,213 - ===================================
+INFO  16:45:31,213 - Parsiranje uspesno zavrseno!

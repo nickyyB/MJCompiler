@@ -1,0 +1,67 @@
+INFO  18:42:25,636 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  18:42:25,674 - #2 program
+INFO  18:42:25,674 - #3 test302
+INFO  18:42:25,674 - #43 {
+INFO  18:42:25,675 - #10 void
+INFO  18:42:25,676 - #3 main
+INFO  18:42:25,676 - #41 (
+INFO  18:42:25,677 - #42 )
+INFO  18:42:25,677 - #43 {
+INFO  18:42:25,677 - #12 print
+INFO  18:42:25,678 - #41 (
+INFO  18:42:25,678 - #3 eol
+INFO  18:42:25,678 - #42 )
+INFO  18:42:25,679 - #47 ;
+INFO  18:42:25,679 - #44 }
+INFO  18:42:25,679 - #44 }
+INFO  18:42:25,683 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclaration(
+  ) [NoDeclaration]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorDecl(
+                        WithoutDoubleColon(
+                         eol
+                        ) [WithoutDoubleColon]
+                      ) [DesignatorDecl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:42:25,685 - ===================================
+INFO  18:42:25,687 -  Print count calls = 1
+INFO  18:42:25,687 -  Deklarisanih promenljivih ima na linija = 0
+INFO  18:42:25,687 - ===================================

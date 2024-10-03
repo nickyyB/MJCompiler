@@ -1,0 +1,195 @@
+INFO  18:59:12,765 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  18:59:12,804 - #2 program
+INFO  18:59:12,804 - #3 test302
+INFO  18:59:12,805 - #43 {
+INFO  18:59:12,806 - #10 void
+INFO  18:59:12,806 - #3 main
+INFO  18:59:12,807 - #41 (
+INFO  18:59:12,807 - #42 )
+INFO  18:59:12,807 - #43 {
+INFO  18:59:12,808 - #12 print
+INFO  18:59:12,808 - #41 (
+INFO  18:59:12,808 - #3 Unpacking
+INFO  18:59:12,808 - #49 :
+INFO  18:59:12,808 - #49 :
+INFO  18:59:12,808 - #3 niz3
+INFO  18:59:12,809 - #45 [
+INFO  18:59:12,809 - #4 0
+INFO  18:59:12,810 - #46 ]
+INFO  18:59:12,810 - #42 )
+INFO  18:59:12,811 - #47 ;
+INFO  18:59:12,811 - #12 print
+INFO  18:59:12,811 - #41 (
+INFO  18:59:12,813 - #3 Unpacking
+INFO  18:59:12,813 - #49 :
+INFO  18:59:12,813 - #49 :
+INFO  18:59:12,813 - #3 niz3
+INFO  18:59:12,813 - #45 [
+INFO  18:59:12,813 - #4 1
+INFO  18:59:12,813 - #46 ]
+INFO  18:59:12,813 - #42 )
+INFO  18:59:12,813 - #47 ;
+INFO  18:59:12,813 - #12 print
+INFO  18:59:12,813 - #41 (
+INFO  18:59:12,813 - #3 Unpacking
+INFO  18:59:12,814 - #49 :
+INFO  18:59:12,814 - #49 :
+INFO  18:59:12,814 - #3 niz3
+INFO  18:59:12,814 - #45 [
+INFO  18:59:12,814 - #4 2
+INFO  18:59:12,814 - #46 ]
+INFO  18:59:12,814 - #42 )
+INFO  18:59:12,814 - #47 ;
+INFO  18:59:12,814 - #44 }
+INFO  18:59:12,814 - #44 }
+INFO  18:59:12,818 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclaration(
+  ) [NoDeclaration]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              PrintStat(
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactorDesSingle(
+                          DesignatorExprEl(
+                            DesignatorDecl(
+                              WithDoubleColon(
+                               Unpacking
+                                DoubleColon(
+                                ) [DoubleColon]
+                               niz3
+                              ) [WithDoubleColon]
+                            ) [DesignatorDecl]
+                            StartArray(
+                            ) [StartArray]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     0
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [DesignatorExprEl]
+                        ) [FactorDesSingle]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+                NoNum(
+                ) [NoNum]
+              ) [PrintStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            PrintStat(
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactorDesSingle(
+                        DesignatorExprEl(
+                          DesignatorDecl(
+                            WithDoubleColon(
+                             Unpacking
+                              DoubleColon(
+                              ) [DoubleColon]
+                             niz3
+                            ) [WithDoubleColon]
+                          ) [DesignatorDecl]
+                          StartArray(
+                          ) [StartArray]
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactNum(
+                                   1
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [DesignatorExprEl]
+                      ) [FactorDesSingle]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+              NoNum(
+              ) [NoNum]
+            ) [PrintStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorExprEl(
+                        DesignatorDecl(
+                          WithDoubleColon(
+                           Unpacking
+                            DoubleColon(
+                            ) [DoubleColon]
+                           niz3
+                          ) [WithDoubleColon]
+                        ) [DesignatorDecl]
+                        StartArray(
+                        ) [StartArray]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactNum(
+                                 2
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [DesignatorExprEl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:59:12,819 - ===================================
+INFO  18:59:12,821 -  Print count calls = 3
+INFO  18:59:12,821 -  Deklarisanih promenljivih ima na linija = 0
+INFO  18:59:12,821 - ===================================

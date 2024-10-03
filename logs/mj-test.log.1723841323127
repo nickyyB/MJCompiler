@@ -1,0 +1,275 @@
+INFO  22:48:07,246 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\avg_test302.mj
+INFO  22:48:07,289 - #2 program
+INFO  22:48:07,289 - #3 test302
+INFO  22:48:07,289 - #43 {
+INFO  22:48:07,291 - #3 int
+INFO  22:48:07,291 - #3 sum
+INFO  22:48:07,293 - #41 (
+INFO  22:48:07,293 - #3 int
+INFO  22:48:07,293 - #3 a
+INFO  22:48:07,294 - #48 ,
+INFO  22:48:07,294 - #3 int
+INFO  22:48:07,294 - #3 b
+INFO  22:48:07,294 - #42 )
+INFO  22:48:07,294 - #43 {
+INFO  22:48:07,295 - #13 return
+INFO  22:48:07,296 - #3 a
+INFO  22:48:07,296 - #20 +
+INFO  22:48:07,296 - #3 b
+INFO  22:48:07,297 - #47 ;
+INFO  22:48:07,297 - #44 }
+INFO  22:48:07,297 - #10 void
+INFO  22:48:07,298 - #3 main
+INFO  22:48:07,300 - #41 (
+INFO  22:48:07,300 - #42 )
+INFO  22:48:07,300 - #3 int
+INFO  22:48:07,300 - #3 test
+INFO  22:48:07,300 - #47 ;
+INFO  22:48:07,300 - #43 {
+INFO  22:48:07,301 - #3 test
+INFO  22:48:07,301 - #22 =
+INFO  22:48:07,301 - #3 sum
+INFO  22:48:07,302 - #41 (
+INFO  22:48:07,302 - #4 1
+INFO  22:48:07,302 - #48 ,
+INFO  22:48:07,303 - #4 1
+INFO  22:48:07,303 - #42 )
+INFO  22:48:07,303 - #47 ;
+INFO  22:48:07,303 - #12 print
+INFO  22:48:07,303 - #41 (
+INFO  22:48:07,303 - #3 test
+INFO  22:48:07,303 - #42 )
+INFO  22:48:07,304 - #47 ;
+INFO  22:48:07,304 - #44 }
+INFO  22:48:07,304 - #44 }
+INFO  22:48:07,309 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDecl(
+    MethodDecl(
+      EmptyMethodDecl(
+      ) [EmptyMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          TypeFunc(
+            Type(
+              IdentDecl(
+               int
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+          ) [TypeFunc]
+         sum
+        ) [MethodTypeName]
+        ListFormPars(
+          ElemFormPars(
+            VarFormPar(
+              FormParameter(
+                Type(
+                  IdentDecl(
+                   int
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [Type]
+               a
+              ) [FormParameter]
+            ) [VarFormPar]
+          ) [ElemFormPars]
+          VarFormPar(
+            FormParameter(
+              Type(
+                IdentDecl(
+                 int
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [Type]
+             b
+            ) [FormParameter]
+          ) [VarFormPar]
+        ) [ListFormPars]
+        EndFormPar(
+        ) [EndFormPar]
+        NoVarList(
+        ) [NoVarList]
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          MatchedStatement(
+            ReturnStat(
+              ExprTermL(
+                AddopList(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactorDesSingle(
+                          DesignatorDecl(
+                            IdentDecl(
+                             a
+                              WithoutDoubleColon(
+                              ) [WithoutDoubleColon]
+                            ) [IdentDecl]
+                          ) [DesignatorDecl]
+                        ) [FactorDesSingle]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                  Add(
+                  ) [Add]
+                  TermFactL(
+                    FactorSingle(
+                      FactorDesSingle(
+                        DesignatorDecl(
+                          IdentDecl(
+                           b
+                            WithoutDoubleColon(
+                            ) [WithoutDoubleColon]
+                          ) [IdentDecl]
+                        ) [DesignatorDecl]
+                      ) [FactorDesSingle]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [AddopList]
+              ) [ExprTermL]
+            ) [ReturnStat]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      VarDl(
+        NoVarList(
+        ) [NoVarList]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             test
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          MatchedStatement(
+            DesignatorStat(
+              DesAssign(
+                DesignatorDecl(
+                  IdentDecl(
+                   test
+                    WithoutDoubleColon(
+                    ) [WithoutDoubleColon]
+                  ) [IdentDecl]
+                ) [DesignatorDecl]
+                Assign(
+                ) [Assign]
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactorDesAct(
+                          FuncCall(
+                            DesignatorDecl(
+                              IdentDecl(
+                               sum
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [DesignatorDecl]
+                          ) [FuncCall]
+                          ActParsDecl(
+                            OneActPar(
+                              ExprTermL(
+                                TermSingle(
+                                  TermFactL(
+                                    FactorSingle(
+                                      FactNum(
+                                       1
+                                      ) [FactNum]
+                                    ) [FactorSingle]
+                                  ) [TermFactL]
+                                ) [TermSingle]
+                              ) [ExprTermL]
+                            ) [OneActPar]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     1
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [ActParsDecl]
+                        ) [FactorDesAct]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+              ) [DesAssign]
+            ) [DesignatorStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorDecl(
+                        IdentDecl(
+                         test
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [DesignatorDecl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  22:48:07,310 - ===================================
+INFO  22:48:07,314 - PROGRAM NAME : test302
+INFO  22:48:07,314 - Obradjuje se funkcija sum na liniji 7
+INFO  22:48:07,315 - u termlist smo + na liniji 8
+INFO  22:48:07,315 - metoda sumima 2 parametara, i 2promenljivih na liniji 7
+INFO  22:48:07,315 - Obradjuje se funkcija main na liniji 11
+INFO  22:48:07,315 - Declared variable test na liniji 12
+INFO  22:48:07,315 - Pronadjen poziv funkcije sum na liniji 15
+INFO  22:48:07,315 - metoda mainnema  parametara, i 1promenljivih na liniji 11
+INFO  22:48:07,316 -  Print count calls = 1
+INFO  22:48:07,316 -  Deklarisanih nizova = 0
+INFO  22:48:07,316 -  Deklarisanih promenljivih = 1
+INFO  22:48:07,316 - ===================================
+INFO  22:48:07,316 - Parsiranje uspesno zavrseno!

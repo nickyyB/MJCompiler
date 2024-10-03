@@ -1,0 +1,122 @@
+INFO  18:48:37,622 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  18:48:37,686 - #2 program
+INFO  18:48:37,686 - #3 MJProgram
+INFO  18:48:37,686 - #3 int
+INFO  18:48:37,688 - #3 x
+INFO  18:48:37,690 - #48 ,
+INFO  18:48:37,690 - #3 y
+INFO  18:48:37,690 - #47 ;
+INFO  18:48:37,690 - #43 {
+INFO  18:48:37,691 - #10 void
+INFO  18:48:37,691 - #3 main
+INFO  18:48:37,692 - #41 (
+INFO  18:48:37,692 - #42 )
+INFO  18:48:37,693 - #43 {
+INFO  18:48:37,693 - #12 print
+INFO  18:48:37,694 - #41 (
+INFO  18:48:37,694 - #4 1
+INFO  18:48:37,694 - #42 )
+INFO  18:48:37,695 - #47 ;
+INFO  18:48:37,695 - #12 print
+INFO  18:48:37,695 - #41 (
+INFO  18:48:37,695 - #4 2
+INFO  18:48:37,695 - #42 )
+INFO  18:48:37,695 - #47 ;
+INFO  18:48:37,695 - #44 }
+INFO  18:48:37,695 - #44 }
+INFO  18:48:37,700 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarListDecl(
+          VarElemDecl(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+          VarDeclIdent(
+           y
+          ) [VarDeclIdent]
+        ) [VarListDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          MatchedStatement(
+            PrintStat(
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactNum(
+                       1
+                      ) [FactNum]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+              NoNum(
+              ) [NoNum]
+            ) [PrintStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactNum(
+                     2
+                    ) [FactNum]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:48:37,700 - ===================================
+INFO  18:48:37,704 - PROGRAM NAME : MJProgram
+INFO  18:48:37,704 - Declared variable x na liniji 2
+INFO  18:48:37,704 - Declared variable y na liniji 2
+INFO  18:48:37,704 - Obradjuje se funkcija main na liniji 4
+INFO  18:48:37,705 - metoda mainnema  parametara, i 0promenljivih na liniji 4
+INFO  18:48:37,705 -  Print count calls = 2
+INFO  18:48:37,705 -  Deklarisanih nizova = 0
+INFO  18:48:37,705 -  Deklarisanih promenljivih = 2
+INFO  18:48:37,705 - ===================================
+INFO  18:48:37,706 - Parsiranje uspesno zavrseno!

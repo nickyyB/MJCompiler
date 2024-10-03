@@ -1,0 +1,146 @@
+INFO  23:32:03,800 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\myTest.mj
+INFO  23:32:03,851 - #2 program
+INFO  23:32:03,851 - #3 test301
+INFO  23:32:03,851 - #43 {
+INFO  23:32:03,853 - #10 void
+INFO  23:32:03,853 - #3 main
+INFO  23:32:03,853 - #41 (
+INFO  23:32:03,854 - #42 )
+INFO  23:32:03,854 - #3 int
+INFO  23:32:03,855 - #3 niz1
+INFO  23:32:03,857 - #45 [
+INFO  23:32:03,857 - #46 ]
+INFO  23:32:03,857 - #47 ;
+INFO  23:32:03,858 - #3 int
+INFO  23:32:03,858 - #3 niz2
+INFO  23:32:03,858 - #45 [
+INFO  23:32:03,858 - #46 ]
+INFO  23:32:03,858 - #47 ;
+INFO  23:32:03,858 - #43 {
+INFO  23:32:03,858 - #3 niz1
+INFO  23:32:03,859 - #22 =
+INFO  23:32:03,859 - #9 new
+INFO  23:32:03,860 - #3 int
+INFO  23:32:03,860 - #45 [
+INFO  23:32:03,860 - #4 5
+INFO  23:32:03,860 - #46 ]
+INFO  23:32:03,860 - #47 ;
+INFO  23:32:03,861 - #44 }
+INFO  23:32:03,861 - #44 }
+INFO  23:32:03,866 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodSignatureWithoutParams(
+          VoidReturnType(
+          ) [VoidReturnType]
+         main
+        ) [MethodSignatureWithoutParams]
+        ValidMethodParams(
+          NoFormalParams(
+          ) [NoFormalParams]
+        ) [ValidMethodParams]
+      ) [MethodSignature]
+      VarDl(
+        VarDl(
+          NoVarList(
+          ) [NoVarList]
+          VariableDecl(
+            Type(
+              IdentDecl(
+               int
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+            VarElemDecl(
+              VarDeclArray(
+               niz1
+                Arr(
+                ) [Arr]
+              ) [VarDeclArray]
+            ) [VarElemDecl]
+          ) [VariableDecl]
+        ) [VarDl]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclArray(
+             niz2
+              Arr(
+              ) [Arr]
+            ) [VarDeclArray]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            DesAssign(
+              DesignatorDecl(
+                IdentDecl(
+                 niz1
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [DesignatorDecl]
+              Assign(
+              ) [Assign]
+              ExprTermL(
+                TermSingle(
+                  FactorSingle(
+                    FactorNewExpr(
+                      Type(
+                        IdentDecl(
+                         int
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [Type]
+                      ExprTermL(
+                        TermSingle(
+                          FactorSingle(
+                            FactNum(
+                             5
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [TermSingle]
+                      ) [ExprTermL]
+                    ) [FactorNewExpr]
+                  ) [FactorSingle]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [DesAssign]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:32:03,866 - ===================================
+INFO  23:32:03,870 - PROGRAM NAME : test301
+WARN  23:32:03,870 - Obj with name: main not found! Line: -1
+INFO  23:32:03,871 - Deklarisana  - niz niz1 na liniji 7
+INFO  23:32:03,871 - Deklarisana  - niz niz2 na liniji 8
+INFO  23:32:03,872 -  Print count calls = 0
+INFO  23:32:03,872 -  Deklarisanih nizova = 0
+INFO  23:32:03,872 -  Deklarisanih promenljivih = 0
+INFO  23:32:03,872 - ===================================
+INFO  23:32:03,872 - Parsiranje uspesno zavrseno!

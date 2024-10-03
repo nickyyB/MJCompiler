@@ -1,0 +1,71 @@
+INFO  23:02:42,767 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  23:02:42,828 - #2 program
+INFO  23:02:42,828 - #3 MJProgram
+INFO  23:02:42,828 - #3 int
+INFO  23:02:42,830 - #3 x
+INFO  23:02:42,831 - #48 ,
+INFO  23:02:42,831 - #3 y
+INFO  23:02:42,831 - #47 ;
+INFO  23:02:42,831 - #43 {
+INFO  23:02:42,831 - #10 void
+INFO  23:02:42,832 - #3 main
+INFO  23:02:42,833 - #41 (
+INFO  23:02:42,833 - #42 )
+INFO  23:02:42,833 - #43 {
+INFO  23:02:42,834 - #44 }
+INFO  23:02:42,835 - #44 }
+INFO  23:02:42,840 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          WithoutDoubleColon(
+           int
+          ) [WithoutDoubleColon]
+        ) [Type]
+        VarListDecl(
+          VarElemDecl(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+          VarDeclIdent(
+           y
+          ) [VarDeclIdent]
+        ) [VarListDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      NoStatements(
+      ) [NoStatements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  23:02:42,842 - ===================================
+INFO  23:02:42,845 - PROGRAM NAME : 1
+INFO  23:02:42,845 - Declared variable x na liniji 2
+INFO  23:02:42,845 - Declared variable y na liniji 2
+INFO  23:02:42,845 - Obradjuje se funkcija main na liniji 4
+INFO  23:02:42,845 - metoda mainnema  parametara, i 0promenljivih na liniji 4
+INFO  23:02:42,846 -  Print count calls = 0
+INFO  23:02:42,846 -  Deklarisanih nizova = 0
+INFO  23:02:42,846 -  Deklarisanih promenljivih = 2
+INFO  23:02:42,846 - ===================================

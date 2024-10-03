@@ -1,0 +1,150 @@
+INFO  16:35:56,846 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  16:35:56,885 - #2 program
+INFO  16:35:56,885 - #3 test302
+INFO  16:35:56,885 - #3 int
+INFO  16:35:56,886 - #3 i
+INFO  16:35:56,886 - #47 ;
+INFO  16:35:56,887 - #3 bool
+INFO  16:35:56,887 - #3 ibool
+INFO  16:35:56,887 - #47 ;
+INFO  16:35:56,887 - #3 int
+INFO  16:35:56,887 - #3 niz2
+INFO  16:35:56,887 - #47 ;
+INFO  16:35:56,887 - #3 int
+INFO  16:35:56,887 - #3 niz
+INFO  16:35:56,887 - #45 [
+INFO  16:35:56,887 - #46 ]
+INFO  16:35:56,888 - #47 ;
+INFO  16:35:56,888 - #43 {
+INFO  16:35:56,888 - #10 void
+INFO  16:35:56,888 - #3 main
+INFO  16:35:56,889 - #41 (
+INFO  16:35:56,889 - #42 )
+INFO  16:35:56,891 - #43 {
+INFO  16:35:56,891 - #3 ibool
+INFO  16:35:56,891 - #22 =
+INFO  16:35:56,892 - #6 false
+INFO  16:35:56,892 - #47 ;
+INFO  16:35:56,893 - #44 }
+INFO  16:35:56,893 - #44 }
+INFO  16:35:56,897 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclVariables(
+            VariableDecl(
+              Type(
+                WithoutDoubleColon(
+                 int
+                ) [WithoutDoubleColon]
+              ) [Type]
+              VarElemDecl(
+                VarDeclIdent(
+                 i
+                ) [VarDeclIdent]
+              ) [VarElemDecl]
+            ) [VariableDecl]
+          ) [DeclVariables]
+        ) [DeclarationList]
+        DeclVariables(
+          VariableDecl(
+            Type(
+              WithoutDoubleColon(
+               bool
+              ) [WithoutDoubleColon]
+            ) [Type]
+            VarElemDecl(
+              VarDeclIdent(
+               ibool
+              ) [VarDeclIdent]
+            ) [VarElemDecl]
+          ) [VariableDecl]
+        ) [DeclVariables]
+      ) [DeclarationList]
+      DeclVariables(
+        VariableDecl(
+          Type(
+            WithoutDoubleColon(
+             int
+            ) [WithoutDoubleColon]
+          ) [Type]
+          VarElemDecl(
+            VarDeclIdent(
+             niz2
+            ) [VarDeclIdent]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [DeclVariables]
+    ) [DeclarationList]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          WithoutDoubleColon(
+           int
+          ) [WithoutDoubleColon]
+        ) [Type]
+        VarElemDecl(
+          VarDeclArray(
+           niz
+          ) [VarDeclArray]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          DesignatorStat(
+            DesAssign(
+              DesignatorDecl(
+                WithoutDoubleColon(
+                 ibool
+                ) [WithoutDoubleColon]
+              ) [DesignatorDecl]
+              Assign(
+              ) [Assign]
+              ExprTermL(
+                TermSingle(
+                  TermFactL(
+                    FactorSingle(
+                      FactB(
+                       false
+                      ) [FactB]
+                    ) [FactorSingle]
+                  ) [TermFactL]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [DesAssign]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:35:56,897 - ===================================
+INFO  16:35:56,899 - i
+INFO  16:35:56,899 - ibool
+INFO  16:35:56,899 - niz2
+INFO  16:35:56,899 -  Print count calls = 0
+INFO  16:35:56,899 -  Deklarisanih promenljivih ima na linija = 3
+INFO  16:35:56,899 - ===================================

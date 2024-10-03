@@ -1,0 +1,317 @@
+INFO  18:34:13,405 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test302.mj
+INFO  18:34:13,474 - #2 program
+INFO  18:34:13,474 - #3 test302
+INFO  18:34:13,475 - #3 int
+INFO  18:34:13,476 - #3 i
+INFO  18:34:13,478 - #47 ;
+INFO  18:34:13,478 - #43 {
+INFO  18:34:13,479 - #10 void
+INFO  18:34:13,480 - #3 main
+INFO  18:34:13,480 - #41 (
+INFO  18:34:13,481 - #42 )
+INFO  18:34:13,481 - #43 {
+INFO  18:34:13,482 - #35 for
+INFO  18:34:13,482 - #41 (
+INFO  18:34:13,482 - #3 i
+INFO  18:34:13,482 - #22 =
+INFO  18:34:13,483 - #4 0
+INFO  18:34:13,484 - #47 ;
+INFO  18:34:13,484 - #3 i
+INFO  18:34:13,485 - #27 <
+INFO  18:34:13,485 - #4 10
+INFO  18:34:13,487 - #47 ;
+INFO  18:34:13,488 - #42 )
+INFO  18:34:13,491 - #43 {
+INFO  18:34:13,492 - #33 if
+INFO  18:34:13,492 - #41 (
+INFO  18:34:13,493 - #3 i
+INFO  18:34:13,493 - #23 ==
+INFO  18:34:13,493 - #4 3
+INFO  18:34:13,493 - #42 )
+INFO  18:34:13,494 - #43 {
+INFO  18:34:13,494 - #3 i
+INFO  18:34:13,494 - #31 ++
+INFO  18:34:13,494 - #47 ;
+INFO  18:34:13,494 - #38 continue
+INFO  18:34:13,495 - #47 ;
+INFO  18:34:13,495 - #44 }
+INFO  18:34:13,495 - #33 if
+INFO  18:34:13,495 - #41 (
+INFO  18:34:13,495 - #3 i
+INFO  18:34:13,496 - #23 ==
+INFO  18:34:13,496 - #4 4
+INFO  18:34:13,496 - #42 )
+INFO  18:34:13,496 - #37 break
+INFO  18:34:13,496 - #47 ;
+INFO  18:34:13,496 - #44 }
+INFO  18:34:13,497 - #44 }
+INFO  18:34:13,497 - #44 }
+INFO  18:34:13,501 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarElemDecl(
+          VarDeclIdent(
+           i
+          ) [VarDeclIdent]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          MatchedFor(
+            ForStatement(
+              OptDesignStmt(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     i
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [OptDesignStmt]
+              ForInit(
+              ) [ForInit]
+              OptCondition(
+                Condition(
+                  CondTermSingle(
+                    CondTerm(
+                      CondFactSingle(
+                        RelopCondFact(
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactorDesSingle(
+                                    DesignatorDecl(
+                                      IdentDecl(
+                                       i
+                                        WithoutDoubleColon(
+                                        ) [WithoutDoubleColon]
+                                      ) [IdentDecl]
+                                    ) [DesignatorDecl]
+                                  ) [FactorDesSingle]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                          Less(
+                          ) [Less]
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactNum(
+                                   10
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [RelopCondFact]
+                      ) [CondFactSingle]
+                    ) [CondTerm]
+                  ) [CondTermSingle]
+                ) [Condition]
+              ) [OptCondition]
+              ForPreDesignator(
+              ) [ForPreDesignator]
+              NoOptDesignStmt(
+              ) [NoOptDesignStmt]
+              ForPostDesignator(
+              ) [ForPostDesignator]
+            ) [ForStatement]
+            BraceStatList(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  UnmatchedStatement(
+                    IfSingleStat(
+                      IfStart(
+                      ) [IfStart]
+                      IfCond(
+                        Condition(
+                          CondTermSingle(
+                            CondTerm(
+                              CondFactSingle(
+                                RelopCondFact(
+                                  ExprTermL(
+                                    TermSingle(
+                                      TermFactL(
+                                        FactorSingle(
+                                          FactorDesSingle(
+                                            DesignatorDecl(
+                                              IdentDecl(
+                                               i
+                                                WithoutDoubleColon(
+                                                ) [WithoutDoubleColon]
+                                              ) [IdentDecl]
+                                            ) [DesignatorDecl]
+                                          ) [FactorDesSingle]
+                                        ) [FactorSingle]
+                                      ) [TermFactL]
+                                    ) [TermSingle]
+                                  ) [ExprTermL]
+                                  Equal(
+                                  ) [Equal]
+                                  ExprTermL(
+                                    TermSingle(
+                                      TermFactL(
+                                        FactorSingle(
+                                          FactNum(
+                                           3
+                                          ) [FactNum]
+                                        ) [FactorSingle]
+                                      ) [TermFactL]
+                                    ) [TermSingle]
+                                  ) [ExprTermL]
+                                ) [RelopCondFact]
+                              ) [CondFactSingle]
+                            ) [CondTerm]
+                          ) [CondTermSingle]
+                        ) [Condition]
+                      ) [IfCond]
+                      MatchedStatement(
+                        BraceStatList(
+                          Statements(
+                            Statements(
+                              NoStatements(
+                              ) [NoStatements]
+                              MatchedStatement(
+                                DesignatorStat(
+                                  DesInc(
+                                    DesignatorDecl(
+                                      IdentDecl(
+                                       i
+                                        WithoutDoubleColon(
+                                        ) [WithoutDoubleColon]
+                                      ) [IdentDecl]
+                                    ) [DesignatorDecl]
+                                  ) [DesInc]
+                                ) [DesignatorStat]
+                              ) [MatchedStatement]
+                            ) [Statements]
+                            MatchedStatement(
+                              ContinueStat(
+                              ) [ContinueStat]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                        ) [BraceStatList]
+                      ) [MatchedStatement]
+                    ) [IfSingleStat]
+                  ) [UnmatchedStatement]
+                ) [Statements]
+                UnmatchedStatement(
+                  IfSingleStat(
+                    IfStart(
+                    ) [IfStart]
+                    IfCond(
+                      Condition(
+                        CondTermSingle(
+                          CondTerm(
+                            CondFactSingle(
+                              RelopCondFact(
+                                ExprTermL(
+                                  TermSingle(
+                                    TermFactL(
+                                      FactorSingle(
+                                        FactorDesSingle(
+                                          DesignatorDecl(
+                                            IdentDecl(
+                                             i
+                                              WithoutDoubleColon(
+                                              ) [WithoutDoubleColon]
+                                            ) [IdentDecl]
+                                          ) [DesignatorDecl]
+                                        ) [FactorDesSingle]
+                                      ) [FactorSingle]
+                                    ) [TermFactL]
+                                  ) [TermSingle]
+                                ) [ExprTermL]
+                                Equal(
+                                ) [Equal]
+                                ExprTermL(
+                                  TermSingle(
+                                    TermFactL(
+                                      FactorSingle(
+                                        FactNum(
+                                         4
+                                        ) [FactNum]
+                                      ) [FactorSingle]
+                                    ) [TermFactL]
+                                  ) [TermSingle]
+                                ) [ExprTermL]
+                              ) [RelopCondFact]
+                            ) [CondFactSingle]
+                          ) [CondTerm]
+                        ) [CondTermSingle]
+                      ) [Condition]
+                    ) [IfCond]
+                    MatchedStatement(
+                      BreakStat(
+                      ) [BreakStat]
+                    ) [MatchedStatement]
+                  ) [IfSingleStat]
+                ) [UnmatchedStatement]
+              ) [Statements]
+            ) [BraceStatList]
+          ) [MatchedFor]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  18:34:13,502 - ===================================
+INFO  18:34:13,507 - PROGRAM NAME : test302
+INFO  18:34:13,507 - Declared variable i na liniji 5
+INFO  18:34:13,507 - Obradjuje se funkcija main na liniji 9
+INFO  18:34:13,508 - metoda mainnema  parametara, i 0promenljivih na liniji 9
+INFO  18:34:13,508 -  Print count calls = 0
+INFO  18:34:13,508 -  Deklarisanih nizova = 0
+INFO  18:34:13,508 -  Deklarisanih promenljivih = 1
+INFO  18:34:13,508 - ===================================
+INFO  18:34:13,508 - Parsiranje uspesno zavrseno!

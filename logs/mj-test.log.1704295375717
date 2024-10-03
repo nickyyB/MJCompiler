@@ -1,0 +1,74 @@
+INFO  16:22:45,021 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\program.mj
+INFO  16:22:45,079 - #2 program
+INFO  16:22:45,079 - #3 test302
+INFO  16:22:45,079 - #3 bool
+INFO  16:22:45,081 - #3 ibool
+INFO  16:22:45,081 - #47 ;
+INFO  16:22:45,082 - #43 {
+INFO  16:22:45,082 - #10 void
+INFO  16:22:45,083 - #3 main
+INFO  16:22:45,084 - #41 (
+INFO  16:22:45,084 - #42 )
+INFO  16:22:45,084 - #43 {
+INFO  16:22:45,085 - #3 bool
+INFO  16:22:45,085 - #3 ibool
+ERROR 16:22:45,086 - 
+Sintaksna greska na liniji 12
+INFO  16:22:45,086 - #22 =
+INFO  16:22:45,086 - #6 false
+INFO  16:22:45,086 - #47 ;
+INFO  16:22:45,086 - #44 }
+INFO  16:22:45,086 - #44 }
+ERROR 16:22:45,087 - Izvrsen oporavak do ; u liniji 1
+INFO  16:22:45,092 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          WithoutDoubleColon(
+           bool
+          ) [WithoutDoubleColon]
+        ) [Type]
+        VarElemDecl(
+          VarDeclIdent(
+           ibool
+          ) [VarDeclIdent]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        MatchedStatement(
+          AssignError(
+            null
+          ) [AssignError]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  16:22:45,093 - ===================================
+INFO  16:22:45,094 - ibool
+INFO  16:22:45,095 -  Print count calls = 0
+INFO  16:22:45,095 -  Deklarisanih promenljivih ima na linija = 1
+INFO  16:22:45,095 - ===================================

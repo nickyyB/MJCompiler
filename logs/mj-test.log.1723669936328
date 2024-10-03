@@ -1,0 +1,256 @@
+INFO  20:41:59,112 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\test302.mj
+INFO  20:41:59,211 - #2 program
+INFO  20:41:59,211 - #3 test302
+INFO  20:41:59,211 - #3 int
+INFO  20:41:59,213 - #3 i
+INFO  20:41:59,215 - #47 ;
+INFO  20:41:59,215 - #43 {
+INFO  20:41:59,216 - #10 void
+INFO  20:41:59,216 - #3 main
+INFO  20:41:59,217 - #41 (
+INFO  20:41:59,218 - #42 )
+INFO  20:41:59,218 - #43 {
+INFO  20:41:59,219 - #3 i
+INFO  20:41:59,219 - #22 =
+INFO  20:41:59,219 - #4 0
+INFO  20:41:59,221 - #47 ;
+INFO  20:41:59,221 - #35 for
+INFO  20:41:59,221 - #41 (
+INFO  20:41:59,222 - #3 i
+INFO  20:41:59,222 - #22 =
+INFO  20:41:59,222 - #4 0
+INFO  20:41:59,222 - #47 ;
+INFO  20:41:59,222 - #3 i
+INFO  20:41:59,224 - #27 <
+INFO  20:41:59,224 - #4 10
+INFO  20:41:59,225 - #47 ;
+INFO  20:41:59,227 - #3 i
+INFO  20:41:59,228 - #31 ++
+INFO  20:41:59,228 - #42 )
+INFO  20:41:59,229 - #43 {
+INFO  20:41:59,229 - #3 i
+INFO  20:41:59,229 - #31 ++
+INFO  20:41:59,230 - #47 ;
+INFO  20:41:59,230 - #44 }
+INFO  20:41:59,230 - #12 print
+INFO  20:41:59,230 - #41 (
+INFO  20:41:59,230 - #3 i
+INFO  20:41:59,230 - #42 )
+INFO  20:41:59,231 - #47 ;
+INFO  20:41:59,231 - #44 }
+INFO  20:41:59,231 - #44 }
+INFO  20:41:59,236 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarElemDecl(
+          VarDeclIdent(
+           i
+          ) [VarDeclIdent]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            MatchedStatement(
+              DesignatorStat(
+                DesAssign(
+                  DesignatorDecl(
+                    IdentDecl(
+                     i
+                      WithoutDoubleColon(
+                      ) [WithoutDoubleColon]
+                    ) [IdentDecl]
+                  ) [DesignatorDecl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [DesignatorStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            MatchedFor(
+              ForStatement(
+                OptDesignStmt(
+                  DesAssign(
+                    DesignatorDecl(
+                      IdentDecl(
+                       i
+                        WithoutDoubleColon(
+                        ) [WithoutDoubleColon]
+                      ) [IdentDecl]
+                    ) [DesignatorDecl]
+                    Assign(
+                    ) [Assign]
+                    ExprTermL(
+                      TermSingle(
+                        TermFactL(
+                          FactorSingle(
+                            FactNum(
+                             0
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [TermFactL]
+                      ) [TermSingle]
+                    ) [ExprTermL]
+                  ) [DesAssign]
+                ) [OptDesignStmt]
+                ForInit(
+                ) [ForInit]
+                OptCondition(
+                  Condition(
+                    CondTermSingle(
+                      CondTerm(
+                        CondFactSingle(
+                          RelopCondFact(
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactorDesSingle(
+                                      DesignatorDecl(
+                                        IdentDecl(
+                                         i
+                                          WithoutDoubleColon(
+                                          ) [WithoutDoubleColon]
+                                        ) [IdentDecl]
+                                      ) [DesignatorDecl]
+                                    ) [FactorDesSingle]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                            Less(
+                            ) [Less]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     10
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [RelopCondFact]
+                        ) [CondFactSingle]
+                      ) [CondTerm]
+                    ) [CondTermSingle]
+                  ) [Condition]
+                ) [OptCondition]
+                ForPreDesignator(
+                ) [ForPreDesignator]
+                OptDesignStmt(
+                  DesInc(
+                    DesignatorDecl(
+                      IdentDecl(
+                       i
+                        WithoutDoubleColon(
+                        ) [WithoutDoubleColon]
+                      ) [IdentDecl]
+                    ) [DesignatorDecl]
+                  ) [DesInc]
+                ) [OptDesignStmt]
+                ForPostDesignator(
+                ) [ForPostDesignator]
+              ) [ForStatement]
+              BraceStatList(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  MatchedStatement(
+                    DesignatorStat(
+                      DesInc(
+                        DesignatorDecl(
+                          IdentDecl(
+                           i
+                            WithoutDoubleColon(
+                            ) [WithoutDoubleColon]
+                          ) [IdentDecl]
+                        ) [DesignatorDecl]
+                      ) [DesInc]
+                    ) [DesignatorStat]
+                  ) [MatchedStatement]
+                ) [Statements]
+              ) [BraceStatList]
+            ) [MatchedFor]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorDecl(
+                        IdentDecl(
+                         i
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [DesignatorDecl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  20:41:59,236 - ===================================
+INFO  20:41:59,241 - PROGRAM NAME : test302
+INFO  20:41:59,241 - Declared variable i na liniji 5
+INFO  20:41:59,241 - Obradjuje se funkcija main na liniji 9
+INFO  20:41:59,242 - metoda mainnema  parametara, i 0promenljivih na liniji 9
+INFO  20:41:59,242 -  Print count calls = 1
+INFO  20:41:59,242 -  Deklarisanih nizova = 0
+INFO  20:41:59,242 -  Deklarisanih promenljivih = 1
+INFO  20:41:59,243 - ===================================
+INFO  20:41:59,243 - Parsiranje uspesno zavrseno!

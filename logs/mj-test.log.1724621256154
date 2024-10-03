@@ -1,0 +1,471 @@
+INFO  23:26:55,180 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\myTest.mj
+INFO  23:26:55,226 - #2 program
+INFO  23:26:55,227 - #3 test301
+INFO  23:26:55,227 - #43 {
+INFO  23:26:55,228 - #10 void
+INFO  23:26:55,229 - #3 main
+INFO  23:26:55,229 - #41 (
+INFO  23:26:55,230 - #42 )
+INFO  23:26:55,231 - #3 int
+INFO  23:26:55,232 - #3 niz1
+INFO  23:26:55,233 - #45 [
+INFO  23:26:55,233 - #46 ]
+INFO  23:26:55,233 - #47 ;
+INFO  23:26:55,234 - #3 int
+INFO  23:26:55,234 - #3 niz2
+INFO  23:26:55,235 - #45 [
+INFO  23:26:55,235 - #46 ]
+INFO  23:26:55,235 - #47 ;
+INFO  23:26:55,235 - #43 {
+INFO  23:26:55,235 - #3 niz1
+INFO  23:26:55,235 - #22 =
+INFO  23:26:55,235 - #9 new
+INFO  23:26:55,236 - #3 int
+INFO  23:26:55,238 - #45 [
+INFO  23:26:55,238 - #4 2
+INFO  23:26:55,238 - #46 ]
+INFO  23:26:55,238 - #47 ;
+INFO  23:26:55,238 - #3 niz1
+INFO  23:26:55,239 - #45 [
+INFO  23:26:55,239 - #4 0
+INFO  23:26:55,239 - #46 ]
+INFO  23:26:55,239 - #22 =
+INFO  23:26:55,239 - #4 11
+INFO  23:26:55,239 - #47 ;
+INFO  23:26:55,239 - #12 print
+INFO  23:26:55,240 - #41 (
+INFO  23:26:55,240 - #3 niz1
+INFO  23:26:55,240 - #45 [
+INFO  23:26:55,240 - #4 0
+INFO  23:26:55,240 - #46 ]
+INFO  23:26:55,240 - #42 )
+INFO  23:26:55,241 - #47 ;
+INFO  23:26:55,241 - #3 niz1
+INFO  23:26:55,241 - #45 [
+INFO  23:26:55,241 - #4 1
+INFO  23:26:55,241 - #46 ]
+INFO  23:26:55,241 - #22 =
+INFO  23:26:55,241 - #4 12
+INFO  23:26:55,241 - #47 ;
+INFO  23:26:55,241 - #3 niz2
+INFO  23:26:55,241 - #22 =
+INFO  23:26:55,241 - #9 new
+INFO  23:26:55,241 - #3 int
+INFO  23:26:55,241 - #45 [
+INFO  23:26:55,241 - #4 2
+INFO  23:26:55,241 - #46 ]
+INFO  23:26:55,241 - #47 ;
+INFO  23:26:55,242 - #3 niz2
+INFO  23:26:55,242 - #45 [
+INFO  23:26:55,242 - #4 0
+INFO  23:26:55,242 - #46 ]
+INFO  23:26:55,242 - #22 =
+INFO  23:26:55,242 - #4 15
+INFO  23:26:55,242 - #47 ;
+INFO  23:26:55,242 - #12 print
+INFO  23:26:55,242 - #41 (
+INFO  23:26:55,242 - #3 niz2
+INFO  23:26:55,242 - #45 [
+INFO  23:26:55,242 - #4 0
+INFO  23:26:55,242 - #46 ]
+INFO  23:26:55,242 - #42 )
+INFO  23:26:55,242 - #47 ;
+INFO  23:26:55,242 - #3 niz2
+INFO  23:26:55,242 - #45 [
+INFO  23:26:55,242 - #4 1
+INFO  23:26:55,243 - #46 ]
+INFO  23:26:55,243 - #22 =
+INFO  23:26:55,243 - #4 16
+INFO  23:26:55,243 - #47 ;
+INFO  23:26:55,243 - #3 niz2
+INFO  23:26:55,243 - #23 ==
+INFO  23:26:55,243 - #3 niz1
+INFO  23:26:55,243 - #47 ;
+INFO  23:26:55,243 - #44 }
+INFO  23:26:55,243 - #44 }
+INFO  23:26:55,248 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodSignature(
+        MethodSignatureWithoutParams(
+          VoidReturnType(
+          ) [VoidReturnType]
+         main
+        ) [MethodSignatureWithoutParams]
+        ValidMethodParams(
+          NoFormalParams(
+          ) [NoFormalParams]
+        ) [ValidMethodParams]
+      ) [MethodSignature]
+      VarDl(
+        VarDl(
+          NoVarList(
+          ) [NoVarList]
+          VariableDecl(
+            Type(
+              IdentDecl(
+               int
+                WithoutDoubleColon(
+                ) [WithoutDoubleColon]
+              ) [IdentDecl]
+            ) [Type]
+            VarElemDecl(
+              VarDeclArray(
+               niz1
+                Arr(
+                ) [Arr]
+              ) [VarDeclArray]
+            ) [VarElemDecl]
+          ) [VariableDecl]
+        ) [VarDl]
+        VariableDecl(
+          Type(
+            IdentDecl(
+             int
+              WithoutDoubleColon(
+              ) [WithoutDoubleColon]
+            ) [IdentDecl]
+          ) [Type]
+          VarElemDecl(
+            VarDeclArray(
+             niz2
+              Arr(
+              ) [Arr]
+            ) [VarDeclArray]
+          ) [VarElemDecl]
+        ) [VariableDecl]
+      ) [VarDl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        NoStatements(
+                        ) [NoStatements]
+                        MatchedStatement(
+                          DesignatorStat(
+                            DesAssign(
+                              DesignatorDecl(
+                                IdentDecl(
+                                 niz1
+                                  WithoutDoubleColon(
+                                  ) [WithoutDoubleColon]
+                                ) [IdentDecl]
+                              ) [DesignatorDecl]
+                              Assign(
+                              ) [Assign]
+                              ExprTermL(
+                                TermSingle(
+                                  FactorSingle(
+                                    FactorNewExpr(
+                                      Type(
+                                        IdentDecl(
+                                         int
+                                          WithoutDoubleColon(
+                                          ) [WithoutDoubleColon]
+                                        ) [IdentDecl]
+                                      ) [Type]
+                                      ExprTermL(
+                                        TermSingle(
+                                          FactorSingle(
+                                            FactNum(
+                                             2
+                                            ) [FactNum]
+                                          ) [FactorSingle]
+                                        ) [TermSingle]
+                                      ) [ExprTermL]
+                                    ) [FactorNewExpr]
+                                  ) [FactorSingle]
+                                ) [TermSingle]
+                              ) [ExprTermL]
+                            ) [DesAssign]
+                          ) [DesignatorStat]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        DesignatorStat(
+                          DesAssign(
+                            DesignatorExprEl(
+                              ArrayName(
+                               niz1
+                              ) [ArrayName]
+                              ExprTermL(
+                                TermSingle(
+                                  FactorSingle(
+                                    FactNum(
+                                     0
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermSingle]
+                              ) [ExprTermL]
+                            ) [DesignatorExprEl]
+                            Assign(
+                            ) [Assign]
+                            ExprTermL(
+                              TermSingle(
+                                FactorSingle(
+                                  FactNum(
+                                   11
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [DesAssign]
+                        ) [DesignatorStat]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      PrintStat(
+                        ExprTermL(
+                          TermSingle(
+                            FactorSingle(
+                              DesignatorFactor(
+                                DesignatorExprEl(
+                                  ArrayName(
+                                   niz1
+                                  ) [ArrayName]
+                                  ExprTermL(
+                                    TermSingle(
+                                      FactorSingle(
+                                        FactNum(
+                                         0
+                                        ) [FactNum]
+                                      ) [FactorSingle]
+                                    ) [TermSingle]
+                                  ) [ExprTermL]
+                                ) [DesignatorExprEl]
+                                NoFunctionCall(
+                                ) [NoFunctionCall]
+                              ) [DesignatorFactor]
+                            ) [FactorSingle]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                        NoNum(
+                        ) [NoNum]
+                      ) [PrintStat]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    DesignatorStat(
+                      DesAssign(
+                        DesignatorExprEl(
+                          ArrayName(
+                           niz1
+                          ) [ArrayName]
+                          ExprTermL(
+                            TermSingle(
+                              FactorSingle(
+                                FactNum(
+                                 1
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [DesignatorExprEl]
+                        Assign(
+                        ) [Assign]
+                        ExprTermL(
+                          TermSingle(
+                            FactorSingle(
+                              FactNum(
+                               12
+                              ) [FactNum]
+                            ) [FactorSingle]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [DesAssign]
+                    ) [DesignatorStat]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  DesignatorStat(
+                    DesAssign(
+                      DesignatorDecl(
+                        IdentDecl(
+                         niz2
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [DesignatorDecl]
+                      Assign(
+                      ) [Assign]
+                      ExprTermL(
+                        TermSingle(
+                          FactorSingle(
+                            FactorNewExpr(
+                              Type(
+                                IdentDecl(
+                                 int
+                                  WithoutDoubleColon(
+                                  ) [WithoutDoubleColon]
+                                ) [IdentDecl]
+                              ) [Type]
+                              ExprTermL(
+                                TermSingle(
+                                  FactorSingle(
+                                    FactNum(
+                                     2
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermSingle]
+                              ) [ExprTermL]
+                            ) [FactorNewExpr]
+                          ) [FactorSingle]
+                        ) [TermSingle]
+                      ) [ExprTermL]
+                    ) [DesAssign]
+                  ) [DesignatorStat]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                DesignatorStat(
+                  DesAssign(
+                    DesignatorExprEl(
+                      ArrayName(
+                       niz2
+                      ) [ArrayName]
+                      ExprTermL(
+                        TermSingle(
+                          FactorSingle(
+                            FactNum(
+                             0
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [TermSingle]
+                      ) [ExprTermL]
+                    ) [DesignatorExprEl]
+                    Assign(
+                    ) [Assign]
+                    ExprTermL(
+                      TermSingle(
+                        FactorSingle(
+                          FactNum(
+                           15
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermSingle]
+                    ) [ExprTermL]
+                  ) [DesAssign]
+                ) [DesignatorStat]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              PrintStat(
+                ExprTermL(
+                  TermSingle(
+                    FactorSingle(
+                      DesignatorFactor(
+                        DesignatorExprEl(
+                          ArrayName(
+                           niz2
+                          ) [ArrayName]
+                          ExprTermL(
+                            TermSingle(
+                              FactorSingle(
+                                FactNum(
+                                 0
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [DesignatorExprEl]
+                        NoFunctionCall(
+                        ) [NoFunctionCall]
+                      ) [DesignatorFactor]
+                    ) [FactorSingle]
+                  ) [TermSingle]
+                ) [ExprTermL]
+                NoNum(
+                ) [NoNum]
+              ) [PrintStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStat(
+              DesAssign(
+                DesignatorExprEl(
+                  ArrayName(
+                   niz2
+                  ) [ArrayName]
+                  ExprTermL(
+                    TermSingle(
+                      FactorSingle(
+                        FactNum(
+                         1
+                        ) [FactNum]
+                      ) [FactorSingle]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesignatorExprEl]
+                Assign(
+                ) [Assign]
+                ExprTermL(
+                  TermSingle(
+                    FactorSingle(
+                      FactNum(
+                       16
+                      ) [FactNum]
+                    ) [FactorSingle]
+                  ) [TermSingle]
+                ) [ExprTermL]
+              ) [DesAssign]
+            ) [DesignatorStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          DesignatorStat(
+            CopyArray(
+              DesignatorDecl(
+                IdentDecl(
+                 niz2
+                  WithoutDoubleColon(
+                  ) [WithoutDoubleColon]
+                ) [IdentDecl]
+              ) [DesignatorDecl]
+              ExprTermL(
+                TermSingle(
+                  FactorSingle(
+                    DesignatorFactor(
+                      DesignatorDecl(
+                        IdentDecl(
+                         niz1
+                          WithoutDoubleColon(
+                          ) [WithoutDoubleColon]
+                        ) [IdentDecl]
+                      ) [DesignatorDecl]
+                      NoFunctionCall(
+                      ) [NoFunctionCall]
+                    ) [DesignatorFactor]
+                  ) [FactorSingle]
+                ) [TermSingle]
+              ) [ExprTermL]
+            ) [CopyArray]
+          ) [DesignatorStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:26:55,249 - ===================================
+INFO  23:26:55,254 - PROGRAM NAME : test301
+WARN  23:26:55,254 - Obj with name: main not found! Line: -1
+INFO  23:26:55,255 - Deklarisana  - niz niz1 na liniji 7
+INFO  23:26:55,255 - Deklarisana  - niz niz2 na liniji 8
+INFO  23:26:55,255 -  Print count calls = 0
+INFO  23:26:55,255 -  Deklarisanih nizova = 0
+INFO  23:26:55,255 -  Deklarisanih promenljivih = 0
+INFO  23:26:55,256 - ===================================
+INFO  23:26:55,256 - Parsiranje uspesno zavrseno!

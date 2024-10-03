@@ -1,0 +1,309 @@
+INFO  13:29:12,877 - Compiling source file: C:\Users\Admin\Desktop\PP1\PROJEKAT\nbrkovic\MJCompiler\test\avg_test301.mj
+INFO  13:29:12,953 - #2 program
+INFO  13:29:12,954 - #3 test301
+INFO  13:29:12,954 - #3 int
+INFO  13:29:12,956 - #3 mat
+INFO  13:29:12,958 - #45 [
+INFO  13:29:12,958 - #46 ]
+INFO  13:29:12,958 - #45 [
+INFO  13:29:12,958 - #46 ]
+INFO  13:29:12,958 - #47 ;
+INFO  13:29:12,960 - #43 {
+INFO  13:29:12,960 - #10 void
+INFO  13:29:12,961 - #3 main
+INFO  13:29:12,962 - #41 (
+INFO  13:29:12,962 - #42 )
+INFO  13:29:12,962 - #43 {
+INFO  13:29:12,963 - #3 mat
+INFO  13:29:12,964 - #22 =
+INFO  13:29:12,964 - #9 new
+INFO  13:29:12,965 - #3 int
+INFO  13:29:12,965 - #45 [
+INFO  13:29:12,966 - #4 2
+INFO  13:29:12,966 - #46 ]
+INFO  13:29:12,968 - #45 [
+INFO  13:29:12,968 - #46 ]
+ERROR 13:29:12,968 - 
+Sintaksna greska na liniji 12
+INFO  13:29:12,968 - #47 ;
+INFO  13:29:12,968 - #3 mat
+INFO  13:29:12,968 - #45 [
+INFO  13:29:12,969 - #4 0
+INFO  13:29:12,969 - #46 ]
+INFO  13:29:12,970 - #22 =
+ERROR 13:29:12,970 - 
+Sintaksna greska na liniji 13
+INFO  13:29:12,970 - #9 new
+INFO  13:29:12,970 - #3 int
+INFO  13:29:12,970 - #45 [
+INFO  13:29:12,970 - #4 3
+INFO  13:29:12,971 - #46 ]
+INFO  13:29:12,971 - #47 ;
+INFO  13:29:12,971 - #3 mat
+ERROR 13:29:12,971 - Izvrsen oporavak do ; u liniji 1
+INFO  13:29:12,971 - #45 [
+INFO  13:29:12,971 - #4 1
+INFO  13:29:12,971 - #46 ]
+INFO  13:29:12,971 - #22 =
+INFO  13:29:12,971 - #9 new
+INFO  13:29:12,971 - #3 int
+INFO  13:29:12,971 - #45 [
+INFO  13:29:12,971 - #4 3
+INFO  13:29:12,971 - #46 ]
+INFO  13:29:12,972 - #47 ;
+INFO  13:29:12,972 - #3 mat
+INFO  13:29:12,972 - #45 [
+INFO  13:29:12,972 - #4 0
+INFO  13:29:12,972 - #46 ]
+INFO  13:29:12,972 - #45 [
+INFO  13:29:12,972 - #4 0
+INFO  13:29:12,972 - #46 ]
+INFO  13:29:12,972 - #22 =
+INFO  13:29:12,972 - #4 1
+INFO  13:29:12,972 - #47 ;
+INFO  13:29:12,973 - #12 print
+INFO  13:29:12,973 - #41 (
+INFO  13:29:12,973 - #3 mat
+INFO  13:29:12,973 - #45 [
+INFO  13:29:12,973 - #4 0
+INFO  13:29:12,973 - #46 ]
+INFO  13:29:12,973 - #45 [
+INFO  13:29:12,973 - #4 0
+INFO  13:29:12,973 - #46 ]
+INFO  13:29:12,973 - #42 )
+INFO  13:29:12,974 - #47 ;
+INFO  13:29:12,974 - #44 }
+INFO  13:29:12,974 - #44 }
+INFO  13:29:12,979 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVariables(
+      VariableDecl(
+        Type(
+          IdentDecl(
+           int
+            WithoutDoubleColon(
+            ) [WithoutDoubleColon]
+          ) [IdentDecl]
+        ) [Type]
+        VarElemDecl(
+          VarDeclArray(
+           mat
+            Matrix(
+            ) [Matrix]
+          ) [VarDeclArray]
+        ) [VarElemDecl]
+      ) [VariableDecl]
+    ) [DeclVariables]
+  ) [DeclarationList]
+  MethodDecl(
+    EmptyMethodDecl(
+    ) [EmptyMethodDecl]
+    NoFparMetohdDecl(
+      MethodTypeName(
+        VoidFunc(
+        ) [VoidFunc]
+       main
+      ) [MethodTypeName]
+      NoVarList(
+      ) [NoVarList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              MatchedStatement(
+                AssignError(
+                  null
+                ) [AssignError]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              DesignatorStat(
+                DesAssign(
+                  DesignatorExprEl(
+                    DesignatorDecl(
+                      IdentDecl(
+                       mat
+                        WithoutDoubleColon(
+                        ) [WithoutDoubleColon]
+                      ) [IdentDecl]
+                    ) [DesignatorDecl]
+                    StartArray(
+                    ) [StartArray]
+                    ExprTermL(
+                      TermSingle(
+                        TermFactL(
+                          FactorSingle(
+                            FactNum(
+                             1
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [TermFactL]
+                      ) [TermSingle]
+                    ) [ExprTermL]
+                  ) [DesignatorExprEl]
+                  Assign(
+                  ) [Assign]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactorNewExpr(
+                            Type(
+                              IdentDecl(
+                               int
+                                WithoutDoubleColon(
+                                ) [WithoutDoubleColon]
+                              ) [IdentDecl]
+                            ) [Type]
+                            ExprTermL(
+                              TermSingle(
+                                TermFactL(
+                                  FactorSingle(
+                                    FactNum(
+                                     3
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [TermFactL]
+                              ) [TermSingle]
+                            ) [ExprTermL]
+                          ) [FactorNewExpr]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesAssign]
+              ) [DesignatorStat]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStat(
+              DesAssign(
+                DesignatorExprEl(
+                  DesignatorExprEl(
+                    DesignatorDecl(
+                      IdentDecl(
+                       mat
+                        WithoutDoubleColon(
+                        ) [WithoutDoubleColon]
+                      ) [IdentDecl]
+                    ) [DesignatorDecl]
+                    StartArray(
+                    ) [StartArray]
+                    ExprTermL(
+                      TermSingle(
+                        TermFactL(
+                          FactorSingle(
+                            FactNum(
+                             0
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [TermFactL]
+                      ) [TermSingle]
+                    ) [ExprTermL]
+                  ) [DesignatorExprEl]
+                  StartArray(
+                  ) [StartArray]
+                  ExprTermL(
+                    TermSingle(
+                      TermFactL(
+                        FactorSingle(
+                          FactNum(
+                           0
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [TermFactL]
+                    ) [TermSingle]
+                  ) [ExprTermL]
+                ) [DesignatorExprEl]
+                Assign(
+                ) [Assign]
+                ExprTermL(
+                  TermSingle(
+                    TermFactL(
+                      FactorSingle(
+                        FactNum(
+                         1
+                        ) [FactNum]
+                      ) [FactorSingle]
+                    ) [TermFactL]
+                  ) [TermSingle]
+                ) [ExprTermL]
+              ) [DesAssign]
+            ) [DesignatorStat]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStat(
+            ExprTermL(
+              TermSingle(
+                TermFactL(
+                  FactorSingle(
+                    FactorDesSingle(
+                      DesignatorExprEl(
+                        DesignatorExprEl(
+                          DesignatorDecl(
+                            IdentDecl(
+                             mat
+                              WithoutDoubleColon(
+                              ) [WithoutDoubleColon]
+                            ) [IdentDecl]
+                          ) [DesignatorDecl]
+                          StartArray(
+                          ) [StartArray]
+                          ExprTermL(
+                            TermSingle(
+                              TermFactL(
+                                FactorSingle(
+                                  FactNum(
+                                   0
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [TermFactL]
+                            ) [TermSingle]
+                          ) [ExprTermL]
+                        ) [DesignatorExprEl]
+                        StartArray(
+                        ) [StartArray]
+                        ExprTermL(
+                          TermSingle(
+                            TermFactL(
+                              FactorSingle(
+                                FactNum(
+                                 0
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [TermFactL]
+                          ) [TermSingle]
+                        ) [ExprTermL]
+                      ) [DesignatorExprEl]
+                    ) [FactorDesSingle]
+                  ) [FactorSingle]
+                ) [TermFactL]
+              ) [TermSingle]
+            ) [ExprTermL]
+            NoNum(
+            ) [NoNum]
+          ) [PrintStat]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [NoFparMetohdDecl]
+  ) [MethodDecl]
+) [Program]
+INFO  13:29:12,979 - ===================================
+INFO  13:29:12,984 - PROGRAM NAME : test301
+INFO  13:29:12,984 - Obradjuje se funkcija main na liniji 8
+INFO  13:29:12,985 - metoda mainnema  parametara, i 0promenljivih na liniji 8
+INFO  13:29:12,985 -  Print count calls = 1
+INFO  13:29:12,985 -  Deklarisanih nizova = 1
+INFO  13:29:12,985 -  Deklarisanih promenljivih = 0
+INFO  13:29:12,985 - ===================================
+ERROR 13:29:12,986 - Parsiranje NIJE uspesno zavrseno!
